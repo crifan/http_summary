@@ -23,12 +23,20 @@
 ## HTTP的代码方面的库
 ### iOS的swift／OC
 - 第三方：
-    - Alamofire
+    - [Alamofire](https://github.com/Alamofire/Alamofire)
 - swift
-    - SwiftHTTP
+    - [SwiftHTTP](https://github.com/daltoniam/SwiftHTTP)
 ### Python
 - 内置：
-    - urllib
-    - urllib2
+    - [urllib](https://docs.python.org/2/library/urllib.html)
+    - [urllib2](https://docs.python.org/2/library/urllib2.html)
 - 第三方：
-    - Requests
+    - [Requests](https://github.com/requests/requests)
+### Javascript
+- [Request](https://github.com/request/request)
+- [axios](https://github.com/mzabriskie/axios)
+- [Web API的Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+    - [window.fetch polyfill](https://github.com/github/fetch)
+
+### C#
+- [HttpWebRequest](https://msdn.microsoft.com/en-us/library/system.net.httpwebrequest(v=vs.110).aspx)
