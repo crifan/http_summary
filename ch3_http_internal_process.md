@@ -34,6 +34,7 @@
 ![](assets/img/58E15E6F-F862-4DFA-B248-EA981AB89FE6.png)
 
 对应的原始内容为：
+
 Request请求：
 ```bash
 GET / HTTP/1.1
