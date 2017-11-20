@@ -111,5 +111,7 @@ curl -v www.baidu.com
 ![](assets/img/1D928B86-A1C2-404B-A682-48332C1F71DF.png)
 
 ## 用`postman`去模拟前面的调用后台接口的登录过程
+![](assets/img/4ACF224B-4768-406B-B28D-50F8131C38C4.png)
+
 
 
