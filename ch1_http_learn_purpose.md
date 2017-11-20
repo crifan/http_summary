@@ -2,16 +2,16 @@
 
 写此HTTP相关内容的教程，期望能对不同类型的人员达到不同的目标：
 
-- 普通用户用浏览器上网
+- `普通用户`用浏览器上网
   - 了解打开网址到页面显示背后的故事
--（iOS/Android\)移动端开发
+-（iOS/Android\)`移动端开发`
   - 了解用代码调用后台API接口时
   - 知道HTTP的有哪些方法，GET/POST等，知道其大概用途
     - 如何传递GET和POST时候的参数
       - GET时的query string
       - POST时的body的json
     - 学习用Postman等工具去测试后台提供的接口
-- 后台API接口设计
+- 后台人员API接口设计
   - 如何设计一个RESTful的API
     - 减少不良风格的接口
       - 比如：/getUser, /updateUser
