@@ -27,6 +27,8 @@
 
 即可看到，对应的Request和Response的信息：
 
+![](assets/img/9EED85A6-83B3-42DB-85D5-2B3B3E5F06A5.png)
+
 
 
 
