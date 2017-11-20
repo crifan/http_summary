@@ -7,9 +7,9 @@
 -（iOS/Android\)`移动端开发`
   - 了解用代码调用后台API接口时
     - 知道HTTP的有哪些方法，GET/POST等，知道其大概用途
-      - 如何传递GET和POST时候的参数
-        - GET时的`query string`
-        - POST时的body的json
+    - 如何传递GET和POST时候的参数
+      - GET时的`query string`
+      - POST时的body的json
   - 学习用Postman等工具去测试后台提供的接口
 - `后台人员`设计API接口
   - 如何设计一个RESTful的API
