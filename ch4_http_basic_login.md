@@ -37,6 +37,7 @@ HTTP协议规定的响应的格式：
 。。。。
 <
 <!DOCTYPE html>
-<!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8>。。。。。。。。。。。。 </body> </html>
+<!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8>........ </body> </html>
 * Connection #0 to host www.baidu.com left intact
 ```
+
