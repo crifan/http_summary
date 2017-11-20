@@ -25,6 +25,6 @@ HTTP的总体思路是：
 [](assets/img/2D3C5583-DE77-4BA8-A128-FCC1218B5FA8.png)
 
 ## 写程序代码去调用后台接口去实现用户登录
-
+比如 （卓越一线的iOS的）swift代码中利用`Alamofire`的HTTP网络库，去实现传递用户名ID+密码的参数和POST类型，调用Alamofire发送请求，完成用户的登录
 
 
