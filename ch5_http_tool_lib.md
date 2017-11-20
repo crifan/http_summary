@@ -9,3 +9,7 @@
 ![](assets/img/38CFDEB6-8637-4C7C-AC2E-14C7F3AD9B5A.png)
 
 ## Chrome的开发者工具Developer Tools
+调试页面内容是否正常，包括布局，参数等等
+
+详见：[【总结】浏览器中的开发人员工具（IE9的F12和Chrome的Ctrl+Shift+I）-网页分析的利器](https://www.crifan.com/browser_developer_tool_chrome_vs_ie9/)
+
