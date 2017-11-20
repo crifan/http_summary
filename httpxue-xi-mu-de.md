@@ -21,6 +21,6 @@ HTTP的总体思路是：
 
 比如一些典型情况：
 
-## 用浏览器去打开网址[www.baidu.com](http://www.baidu.com)查看网页内容
+## 普通用户用浏览器去打开网址[www.baidu.com](http://www.baidu.com)查看网页内容
 
 
