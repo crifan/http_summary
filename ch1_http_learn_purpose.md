@@ -10,9 +10,9 @@
     - 如何传递GET和POST时候的参数
       - GET时的`query string`
       - POST时的body的json
-  - 学习用Postman等工具去测试后台提供的接口
+  - 学习用`Postman`等工具去测试后台提供的接口
 - `后台人员`设计API接口
-  - 如何设计一个RESTful的API
+  - 如何设计一个`RESTful`的API
     - 减少不良风格的接口
       - 比如：/getUser, /updateUser
   - 学习用Postman等工具去测试自己写的API接口
