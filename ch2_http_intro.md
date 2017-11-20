@@ -24,6 +24,7 @@ HTTP的总体思路是：
 ## 普通用户用浏览器去打开网址[www.baidu.com](http://www.baidu.com)查看网页内容
 [](assets/img/2D3C5583-DE77-4BA8-A128-FCC1218B5FA8.png)
 
+## 写程序代码去调用后台接口去实现用户登录
 
 
 
