@@ -116,5 +116,18 @@ curl -v www.baidu.com
 其中内部发送的HTTP请求，可以通过Code查看：
 ![](assets/img/523C7AA5-AF8F-477A-A7CF-BA415AC37F8F.png)
 
+```bash
+POST /v1/skr/login HTTP/1.1
+Host: 123.206.101.36:9090
+Content-Type: application/json; charset=UTF-8
+authorization: Bearer mum5emp17q28st6v36ajltfvf3
+Cache-Control: no-cache
+Postman-Token: deb6784d-3689-32ce-ac01-687c22ad1b6e
+
+{
+    "user" : "13429",
+    "password" : "666666"
+}
+```
 
 
