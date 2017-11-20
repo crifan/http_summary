@@ -113,5 +113,7 @@ curl -v www.baidu.com
 ## 用`postman`去模拟前面的调用后台接口的登录过程
 ![](assets/img/4ACF224B-4768-406B-B28D-50F8131C38C4.png)
 
+其中内部发送的HTTP请求，可以通过Code查看：
+
 
 
