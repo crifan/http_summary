@@ -40,4 +40,9 @@ HTTP协议规定的响应的格式：
 <!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8>........ </body> </html>
 * Connection #0 to host www.baidu.com left intact
 ```
-
+其中：
+- HTTP/1.1 200 OK：表示1.1版本的HTTP协议，返回状态为200，表示正常
+    - 其他典型的，不正常的，有问题的状态有很多，比如404找不到，500服务器内部错误等等
+- Content-Type: text/html：内容的类型为html
+- Content-Length: 2381：内容的长度为2381字节
+- <!DOCTYPE html>...：html的内容，浏览器加载此内容后，即可显示出你所看到的网页
