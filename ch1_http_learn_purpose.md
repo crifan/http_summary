@@ -17,7 +17,7 @@
       - 比如：/getUser, /updateUser
   - 学习用Postman等工具去测试自己写的API接口
   - 学习如何用Postman等工具去生成API文档
-- 测试人员
+- `测试人员`
   - 充分利用Postman等工具去实现接口的自动化测试
 
 
