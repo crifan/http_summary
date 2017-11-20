@@ -30,10 +30,8 @@
 ![](assets/img/681BB8D6-73BC-4EAD-804E-4014E5C12299.png)
 
 通过点击Request Headers和Response Headers的view source可以看到未被解析之前的原始内容：
-
-
-
-
+![](assets/img/B7221FAE-3275-4973-88BC-D4E79EB59875.png)
+![](assets/img/58E15E6F-F862-4DFA-B248-EA981AB89FE6.png)
 
 对应的原始内容为：
 Request请求：
