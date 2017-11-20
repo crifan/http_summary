@@ -49,5 +49,29 @@ Accept-Language: zh-CN,zh;q=0.8,en;q=0.6
 Cookie: BAIDUID=6720BF4EAED8C8448EB6540DAF83BE56:FG=1; BIDUPSID=6720BF4EAED8C8448EB6540DAF83BE56; PSTM=1449798993; MCITY=-224%3A; BD_CK_SAM=1; PSINO=3; BD_HOME=0; H_PS_PSSID=1430_24568_21116_24880_20929; BD_UPN=123253
 ```
 
+Response响应：
+```bash
+HTTP/1.1 200 OK
+Bdpagetype: 1
+Bdqid: 0xd4bdc47c00000909
+Bduserid: 0
+Cache-Control: private
+Connection: Keep-Alive
+Content-Encoding: gzip
+Content-Type: text/html; charset=utf-8
+Cxy_all: baidu+1ea6be4d211f802306f9e10940507eba
+Date: Mon, 13 Nov 2017 01:32:41 GMT
+Expires: Mon, 13 Nov 2017 01:32:06 GMT
+Server: BWS/1.1
+Set-Cookie: BDSVRTM=0; path=/
+Set-Cookie: BD_HOME=0; path=/
+Set-Cookie: H_PS_PSSID=1430_24568_21116_24880_20929; path=/; domain=.baidu.com
+Strict-Transport-Security: max-age=172800
+Vary: Accept-Encoding
+X-Powered-By: HPHP
+X-Ua-Compatible: IE=Edge,chrome=1
+Transfer-Encoding: chunked
+```
+
 
 
