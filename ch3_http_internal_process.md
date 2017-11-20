@@ -29,7 +29,26 @@
 
 ![](assets/img/681BB8D6-73BC-4EAD-804E-4014E5C12299.png)
 
+通过点击Request Headers和Response Headers的view source可以看到未被解析之前的原始内容：
 
+
+
+
+
+对应的原始内容为：
+Request请求：
+```bash
+GET / HTTP/1.1
+Host: www.baidu.com
+Connection: keep-alive
+Cache-Control: max-age=0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8,en;q=0.6
+Cookie: BAIDUID=6720BF4EAED8C8448EB6540DAF83BE56:FG=1; BIDUPSID=6720BF4EAED8C8448EB6540DAF83BE56; PSTM=1449798993; MCITY=-224%3A; BD_CK_SAM=1; PSINO=3; BD_HOME=0; H_PS_PSSID=1430_24568_21116_24880_20929; BD_UPN=123253
+```
 
 
 
