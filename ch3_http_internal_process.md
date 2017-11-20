@@ -72,6 +72,7 @@ X-Powered-By: HPHP
 X-Ua-Compatible: IE=Edge,chrome=1
 Transfer-Encoding: chunked
 ```
+## 用curl工具去模拟浏览器访问百度的过程
 
 
 
