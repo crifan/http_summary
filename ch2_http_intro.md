@@ -29,6 +29,8 @@ HTTP的总体思路是：
 
 传递用户名ID+密码的参数和POST类型，调用Alamofire发送请求，完成用户的登录
 
+[](assets/img/2F0FA94A-462F-49D5-8249-D7BFAE34CB76.png)
+
 
 
 
