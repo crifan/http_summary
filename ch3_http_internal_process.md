@@ -114,6 +114,7 @@ curl -v www.baidu.com
 ![](assets/img/4ACF224B-4768-406B-B28D-50F8131C38C4.png)
 
 其中内部发送的HTTP请求，可以通过Code查看：
+![](assets/img/523C7AA5-AF8F-477A-A7CF-BA415AC37F8F.png)
 
 
 
