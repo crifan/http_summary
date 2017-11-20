@@ -1,4 +1,4 @@
-# HTTP简介
+## # HTTP简介
 
 `HTTP`=`Hyper Text Transfer Protocol`=`超文本传输协议`
 
@@ -21,5 +21,6 @@ HTTP的总体思路是：
 
 比如一些典型情况：
 
+## 用浏览器去打开网址[www.baidu.com](http://www.baidu.com)查看网页内容
 
 
