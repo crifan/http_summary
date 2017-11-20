@@ -1,4 +1,4 @@
 # HTTP知识总结
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+之前在不同平台下，使用不同语言，折腾过很多HTTP方面的技术，现整理成册，供自己和他人参考。
 
