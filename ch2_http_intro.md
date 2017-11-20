@@ -31,6 +31,8 @@ HTTP的总体思路是：
 
 ![](assets/img/2F0FA94A-462F-49D5-8249-D7BFAE34CB76.png)
 
+![](assets/img/446072B2-ECCA-4D32-88C4-91CE64F85605.png)
+
 
 
 
