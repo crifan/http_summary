@@ -21,6 +21,9 @@
 右上角 三个点-》更多工具-》开发者工具
 ![](assets/img/9EED85A6-83B3-42DB-85D5-2B3B3E5F06A5.png)
 
+点击到Network列，然后再去访问地址www.baidu.com
+就可以看到会有一堆的内容列出来，点击第一个www.baidu.com的Header
+即可看到，对应的Request和Response的信息：
 
 
 
