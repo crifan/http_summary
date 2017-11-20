@@ -11,7 +11,7 @@
       - GET时的query string
       - POST时的body的json
     - 学习用Postman等工具去测试后台提供的接口
-- 后台人员API接口设计
+- `后台人员`API接口设计
   - 如何设计一个RESTful的API
     - 减少不良风格的接口
       - 比如：/getUser, /updateUser
