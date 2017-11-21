@@ -135,5 +135,7 @@ HTTP的Header包括两类：
 | Via | 通知中间网关或代理服务器地址，通信协议 | Via:1.0 fred,1.1 nowhere.com \(Apache/1.1\) |
 | Warning | 关于消息实体的警告信息 | Warn:199 Miscellaneous warning |
 
+### Response的Header
+
 
 
