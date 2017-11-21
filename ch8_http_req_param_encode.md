@@ -113,6 +113,11 @@ getUrlRespJson_async(
 
 举例：
 python中，get中url参数可以利用`urllib.urlencode`（或`urllib.quote_plus`）去把dict字典转换为key=value的形式：
+```python
+import urllib
+params = urllib.urlencode({'spam': 1, 'eggs': 2, 'bacon': 0})
+url = "http://www.musi-cal.com/cgi-bin/query?%s"; % params
+```
 
 
 
