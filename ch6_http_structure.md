@@ -2,15 +2,14 @@
 
 
 
-Request
-
-* * URL
-  * Method
-  * * GET
-    * * 获取信息
-      * 不会更改服务器内部的数据
-    * POST
-    * * 像服务器发送数据：
+- Request
+  - URL
+  - Method
+    - GET
+      - 获取信息
+      - 不会更改服务器内部的数据
+    - POST
+      - 向服务器发送数据：
       * * 创建xxx
         * 更新xxx
         * * 准确的说，其实应该用PUT或UPDATE
