@@ -126,6 +126,10 @@ url = "http://www.musi-cal.com/cgi-bin/query?%s"; % params
 
 好像空格有时候被编码为+，有时候被编码为%20，到底哪个才对？
 
+Percent Encode也被叫做URL Encode
+Percent Encode指的是，一些字符，在被（url）encode后，往往都是变成%xx
+比如：
+内部对应着HTTP请求时，类型被设置为：`application/x-www-form-urlencoded`
 
 
 
