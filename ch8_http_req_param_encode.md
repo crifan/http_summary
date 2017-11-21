@@ -140,7 +140,7 @@ Percent Encode指的是，一些字符，在被（url）encode后，往往都是
 内部对应着HTTP请求时，类型被设置为：`application/x-www-form-urlencoded`
 
 | [!](https://en.wikipedia.org/wiki/Exclamation_mark) | [\#](https://en.wikipedia.org/wiki/Number_sign) | [$](https://en.wikipedia.org/wiki/Dollar_sign) | [&](https://en.wikipedia.org/wiki/Ampersand) | ['](https://en.wikipedia.org/wiki/Apostrophe_%28mark%29) | [\(](https://en.wikipedia.org/wiki/Parenthesis) | [\)](https://en.wikipedia.org/wiki/Parenthesis) | [\*](https://en.wikipedia.org/wiki/Asterisk) | [+](https://en.wikipedia.org/wiki/Plus_sign) | [,](https://en.wikipedia.org/wiki/Comma) | [/](https://en.wikipedia.org/wiki/Slash_%28punctuation%29) | [:](https://en.wikipedia.org/wiki/Colon_%28punctuation%29) | [;](https://en.wikipedia.org/wiki/Semicolon) | [=](https://en.wikipedia.org/wiki/Equal_sign) | [?](https://en.wikipedia.org/wiki/Question_mark) | [@](https://en.wikipedia.org/wiki/\@) | \ | [\]](https://en.wikipedia.org/wiki/Square_bracket) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 
 
 | %21 | %23 | %24 | %26 | %27 | %28 | %29 | %2A | %2B | %2C | %2F | %3A | %3B | %3D | %3F | %40 | %5B | %5D |
@@ -151,9 +151,8 @@ Percent Encode指的是，一些字符，在被（url）encode后，往往都是
 
 | [newline](https://en.wikipedia.org/wiki/Newline) | [space](https://en.wikipedia.org/wiki/Space_%28punctuation%29) | ["](https://en.wikipedia.org/wiki/Double_quote) | [%](https://en.wikipedia.org/wiki/Percent_sign) | [-](https://en.wikipedia.org/wiki/Hyphen) | [.](https://en.wikipedia.org/wiki/Full_stop) | [&lt;](https://en.wikipedia.org/wiki/Angle_bracket) | [&gt;](https://en.wikipedia.org/wiki/Angle_bracket) | [\](https://en.wikipedia.org/wiki/Back_slash) | [^](https://en.wikipedia.org/wiki/Caret) | [\_](https://en.wikipedia.org/wiki/Underscore) | [\`](https://en.wikipedia.org/wiki/Grave_accent) | [{](https://en.wikipedia.org/wiki/Curly_bracket) | [\|](https://en.wikipedia.org/wiki/Vertical_bar) | [}](https://en.wikipedia.org/wiki/Curly_bracket) | [~](https://en.wikipedia.org/wiki/Tilde) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| %0A or %0D or %0D%0A | %20 | %22 | %25 | %2D | %2E | %3C | %3E | %5C | %5E | %5F | %60 | %7B | %7C | %7D | %7E |
+| %0A or %0D or %0D%0A | %20 | %22 | %25 | %2D | %2E | %3C | %3E | %5C | %5E | %5F | %60 | %7B | %7C | %7D | %7E |
 
-  
 即：
 
 空格正常情况下被url encode=percent encode，的结果是%20
@@ -173,9 +172,4 @@ Percent Encode指的是，一些字符，在被（url）encode后，往往都是
 * 而之前历史上有些变种的处理，会编码为：+
 
 而Python中对于url encode相关的函数有3种，对应的效果分别如下：
-
-  
-
-
-
 
