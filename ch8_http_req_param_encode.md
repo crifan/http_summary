@@ -67,6 +67,29 @@ let curHttpReq = Alamofire.request(url, method: httpMethod, parameters: paramete
 ![](assets/img/2B2421A4-B01C-49BA-B49F-607CD2E7A6C2.png)
 
 
+然后从外部调用时，对于get的url参数，可以直接传递：
+
+get中的url的参数的对象，让Alamofire内部去利用URLEncoding转换为对应的?key1=value1&key2=value2的格式：
+
+```swift
+var parameters = [String : AnyObject]()
+parameters = [
+    "planId":self.visitId as AnyObject,
+    "name":self.missionInfo.missionInfo.name as AnyObject,
+    "pics":pics as AnyObject,
+    "publisher":gCurUserItem.userInfo.pkEmpno as AnyObject,
+    "resultDescription":self.missionInfo.missionInfo.resultDescription as AnyObject,
+    "finish":finishInt as AnyObject,
+    "planProblem":planProblem as AnyObject
+]
+
+getUrlRespJson_async(
+    httpMethod: hTTPMethod,
+    url:  url,
+    parameters: parameters,
+    respJsonHandle: { [weak self] (response) in
+```
+
 
 
 
