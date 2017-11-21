@@ -55,6 +55,7 @@ GET：参数想要放在url中以`?key1=value1&key2=value2`的形式
       - `Qs.stringify(params, {arrayFormat: 'brackets'})`
 
 ### Alamofire中，对于get的参数支持url encoding，对于post支持json encoding
+所以代码可以写成：
 
 
 
