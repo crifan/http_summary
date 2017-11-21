@@ -166,7 +166,6 @@ Percent Encode指的是，一些字符，在被（url）encode后，往往都是
 但是后来有些变种的处理，其中就包括把空格space编码为+（而不是%20）
 
 总之：
-
 * 空格被url encode=percent encode，应该是：%20
 * 而之前历史上有些变种的处理，会编码为：+
 
