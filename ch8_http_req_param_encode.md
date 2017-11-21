@@ -109,6 +109,8 @@ getUrlRespJson_async(
     respJsonHandle: { [weak self] (response) in
 ```
 ![](7C86AF70-EADF-4E11-A766-12467A62C778.png)
+则内部的Alamofire就会把该参数对象，通过JSONEncoding转换为json字符串了。
+
 
 
 
