@@ -60,44 +60,44 @@ HTTP的Header包括两类：
 
 ## 常见Header举例
 
-Request Header请求头
+- Request Header请求头
+  - Accept
+    - 代码调用API时：
+      - Accept: application/json
+      - Accept: application/json; charset=UTF-8
+    - 浏览器访问网页时：
+      - Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+  - Content-Type
+    - 代码调用API时：
+      - Content-Type:application/json
+      - Content-Type:application/json; charset=UTF-8
+      - Content-Type:application/x-www-form-urlencoded
+  - Authorization
+    - 代码调用API时：
+      - Authorization: Bearer 6k8p8ucshobav531lftkb2f1bv
+  - User-Agent
+    - 浏览器访问网页时：
+      - User-Agent: Mozilla/5.0\(Linux;X11\)
+      - User-Agent: Mozilla/5.0 \(Macintosh; Intel Mac OS X 10\_13\_1\) AppleWebKit/537.36 \(KHTML, like Gecko\) Chrome/61.0.3163.100 Safari/537.36
+  - Accept-Language
+    - 浏览器访问网页时：
+      - Accept-Language: zh-CN,zh;q=0.8,en;q=0.6
+  - Accept-Encoding
+    - 浏览器访问网页时：
+      - Accept-Encoding: gzip, deflate, br
+- Response Header响应头
+  - Content-Type
+    - 代码调用API时：
+      - Content-Type:application/json
+    - 浏览器访问网页时：
+      - Content-Type: text/html; charset=utf-8
+  - Connection
+    - 浏览器访问网页时：
+      - Connection: Keep-Alive
+  - Content-Encoding
+    - 浏览器访问网页时：
+      - Content-Encoding: gzip
 
-* * Accept
-  * * 代码调用API时：
-    * * Accept: application/json
-      * Accept: application/json; charset=UTF-8
-    * 浏览器访问网页时：
-    * * Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,\*/\*;q=0.8
-  * Content-Type
-  * * 代码调用API时：
-    * * Content-Type:application/json
-      * Content-Type:application/json; charset=UTF-8
-      * Content-Type:application/x-www-form-urlencoded
-  * Authorization
-  * * 代码调用API时：
-    * * Authorization: Bearer 6k8p8ucshobav531lftkb2f1bv
-  * User-Agent
-  * * 浏览器访问网页时：
-    * * User-Agent: Mozilla/5.0\(Linux;X11\)
-      * User-Agent: Mozilla/5.0 \(Macintosh; Intel Mac OS X 10\_13\_1\) AppleWebKit/537.36 \(KHTML, like Gecko\) Chrome/61.0.3163.100 Safari/537.36
-  * Accept-Language
-  * * 浏览器访问网页时：
-    * * Accept-Language: zh-CN,zh;q=0.8,en;q=0.6
-  * Accept-Encoding
-  * * 浏览器访问网页时：
-    * * Accept-Encoding: gzip, deflate, br
-* Response Header响应头
-* * Content-Type
-  * * 代码调用API时：
-    * * Content-Type:application/json
-    * 浏览器访问网页时：
-    * * Content-Type: text/html; charset=utf-8
-  * Connection
-  * * 浏览器访问网页时：
-    * * Connection: Keep-Alive
-  * Content-Encoding
-  * * 浏览器访问网页时：
-    * * Content-Encoding: gzip
 
 
 
