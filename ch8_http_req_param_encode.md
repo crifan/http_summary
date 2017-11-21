@@ -108,6 +108,7 @@ getUrlRespJson_async(
     parameters: parameters ,
     respJsonHandle: { [weak self] (response) in
 ```
+![](7C86AF70-EADF-4E11-A766-12467A62C778.png)
 
 
 
