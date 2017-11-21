@@ -35,7 +35,6 @@ GET：参数想要放在url中以`?key1=value1&key2=value2`的形式
 * 自己把参数（对象，字典等），转换为对应的json字符串
 * 调用库提供的方法去encode你的参数对象为json
 
-  
 
 
 其他一些解释：
@@ -44,9 +43,6 @@ GET：参数想要放在url中以`?key1=value1&key2=value2`的形式
 * POST 请求不会保留在浏览器历史记录中
 * POST 不能被收藏为书签
 * POST 请求对数据长度没有要求
-
-  
-
 
 
 
