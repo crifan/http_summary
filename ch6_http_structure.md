@@ -34,7 +34,7 @@
   - Accept
     - application/json
   - Authorization
-    - Bearer 725a7c44b76c45ab95152bcee014ae6e\_1
+    - Bearer 725a7c44b76c45ab95152bcee014ae6e_1
 - Other
   - Cookie
   - LocalStorage
