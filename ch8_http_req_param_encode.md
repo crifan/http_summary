@@ -25,10 +25,7 @@ GET：参数想要放在url中以`?key1=value1&key2=value2`的形式
 * GET 请求不应在处理敏感数据时使用
 * GET 请求只应当用于取回数据
 
-## POST请求的参数
-
-### POST请求的参数：`post body`
-
+## POST请求的参数：`post body`
 典型的是：把一堆的参数，放到`post`的`body`中，格式一般都是`json`格式
 
 则一般也有两种做法：
