@@ -99,5 +99,11 @@ HTTP的Header包括两类：
       - Content-Encoding: gzip
 
 
+## 更全更完整的Header
+### Request的Header
+
+
+
+
 
 
