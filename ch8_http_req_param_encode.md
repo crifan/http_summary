@@ -45,6 +45,8 @@ GET：参数想要放在url中以`?key1=value1&key2=value2`的形式
 ## GET和POST的请求的参数的编码
 
 举例：
+### http库axios中create时支持的config中的paramsSerializer
+
 
 
 
