@@ -27,6 +27,11 @@ GET：参数想要放在url中以`?key1=value1&key2=value2`的形式
 * GET 请求不应在处理敏感数据时使用
 * GET 请求只应当用于取回数据
 
+### GET请求参数的编码
+
+举例：
+
+
 ## POST请求的参数和编码
 
 ### POST请求的参数：`post body`
