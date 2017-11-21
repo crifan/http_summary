@@ -214,3 +214,5 @@ print "quotedValue=%s,quotedPlusValue=%s"%(quotedValue, quotedPlusValue)
 * 李茂 -》 `UTF-8`编码后 -》`%e6%9d%8e%e8%8c%82`
 * 李茂 -》 `GB2312`编码后 -》 `%c0%ee%c3%af`
 
+### 为何浏览器中的地址栏中的url地址可以看到有中文，而不是url encode之后的%xx？
+
