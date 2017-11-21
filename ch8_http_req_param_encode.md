@@ -91,6 +91,7 @@ getUrlRespJson_async(
 ```
 ![](assets/img/0450D66D-6641-403F-BF7F-ED9496AD4A30.png)
 
+另外，对应的对于POST来说，把json对象转换为json字符串的例子：
 
 
 
