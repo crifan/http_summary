@@ -216,3 +216,8 @@ print "quotedValue=%s,quotedPlusValue=%s"%(quotedValue, quotedPlusValue)
 
 ### 为何浏览器中的地址栏中的url地址可以看到有中文，而不是url encode之后的%xx？
 
+而你在浏览器中看到的中文地址其实是浏览器帮你解码后的中文
+真正的url地址是%xx形式的被（UTF-8）编码后的地址
+比如你在Chrome（或其他浏览器）中看到的地址中有中文：
+`https://github.com/imaidev/imaidev.github.io/wiki/wifi嗅探与客流统计`
+
