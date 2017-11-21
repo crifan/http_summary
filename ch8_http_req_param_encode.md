@@ -166,10 +166,12 @@ Percent Encode指的是，一些字符，在被（url）encode后，往往都是
 但是后来有些变种的处理，其中就包括把空格space编码为+（而不是%20）
 
 总之：
+
 * 空格被url encode=percent encode，应该是：%20
 * 而之前历史上有些变种的处理，会编码为：+
 
 而Python中对于url encode相关的函数有3种，对应的效果分别如下：
+
 ```python
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
@@ -184,40 +186,50 @@ quotedValue = urllib.quote(paraValue) # quotedValue=Crifan%20Li
 quotedPlusValue = urllib.quote_plus(paraValue) # quotedPlusValue=Crifan+Li
 print "quotedValue=%s,quotedPlusValue=%s"%(quotedValue, quotedPlusValue)
 ```
+
 总结：
-* urllib.urlencode编码（字典中的）value，urllib.quote_plus编码字符串：空格编码为 +
+
+* urllib.urlencode编码（字典中的）value，urllib.quote\_plus编码字符串：空格编码为 +
 * urllib.quote编码字符串：空格编码为%20
 
 ### 在url地址里包含中文时的编码显示和内部逻辑
-背景：
-如果url地址中有非普通的ASCII字符串，理论上都是会被编码后，所以你看到的如果url地址中有中文，实际上打开都是%xx之类的地址
+
+背景：  
+如果url地址中有非普通的ASCII字符串，理论上都是会被编码后，所以你看到的如果url地址中有中文，实际上打开都是%xx之类的地址  
 中文字符串和其他字符串编码逻辑是一样的。
 
 对于中文类字符被url encode，有很多在线网站可以帮你实现，比如：
-- `http://tool.chinaz.com/tools/urlencode.aspx`
-- `http://tool.oschina.net/encode?type=4`
-输入中文
-`李茂`
-就可以被（UTF-8）编码为：
-`%e6%9d%8e%e8%8c%82`
 
-![](assets/img/665389BA-F1E4-4A17-B2FF-BEF7E773DD8D.png)
+* `http://tool.chinaz.com/tools/urlencode.aspx`
+* `http://tool.oschina.net/encode?type=4`
+  输入中文
+  `李茂`
+  就可以被（UTF-8）编码为：
+  `%e6%9d%8e%e8%8c%82`
+
+![](assets/img/665389BA-F1E4-4A17-B2FF-BEF7E773DD8D.png)  
 ![](assets/img/D980D429-8ED2-4EAF-92A0-EC1AAD7E542B.png)
 
 注：
+
 * 一般网页地址中的字符编码都用的是UTF-8
 * 上面编码也都是采用的UTF-8编码得到的结果
 
-而如果想要换成别的编码，比如另一种常见的中文编码GB2312，则编码出来的是另外的结果：
-![](assets/img/61CD3BDE-03EF-48A8-811E-DE5572656473.png)
+而如果想要换成别的编码，比如另一种常见的中文编码GB2312，则编码出来的是另外的结果：  
+![](assets/img/61CD3BDE-03EF-48A8-811E-DE5572656473.png)  
 即：
+
 * 李茂 -》 `UTF-8`编码后 -》`%e6%9d%8e%e8%8c%82`
 * 李茂 -》 `GB2312`编码后 -》 `%c0%ee%c3%af`
 
 ### 为何浏览器中的地址栏中的url地址可以看到有中文，而不是url encode之后的%xx？
 
-而你在浏览器中看到的中文地址其实是浏览器帮你解码后的中文
-真正的url地址是%xx形式的被（UTF-8）编码后的地址
-比如你在Chrome（或其他浏览器）中看到的地址中有中文：
+而你在浏览器中看到的中文地址其实是浏览器帮你解码后的中文  
+真正的url地址是%xx形式的被（UTF-8）编码后的地址  
+比如你在Chrome（或其他浏览器）中看到的地址中有中文：  
 `https://github.com/imaidev/imaidev.github.io/wiki/wifi嗅探与客流统计`
+
+![](/assets/img/chrome_address_with_zhcn.png)
+
+
 
