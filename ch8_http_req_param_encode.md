@@ -64,6 +64,10 @@ GET：参数想要放在url中以`?key1=value1&key2=value2`的形式
 
 let curHttpReq = Alamofire.request(url, method: httpMethod, parameters: parameters, encoding: paramEncoding, headers: curHeaders)
 ```
+![](assets/img/2B2421A4-B01C-49BA-B49F-607CD2E7A6C2.png)
+
+
+
 
 
 
