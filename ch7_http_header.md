@@ -31,14 +31,14 @@ HTTP的Header包括两类：
   - 以及其他一些额外的请求和希望
     - User-Agent:告诉你我是哪种浏览器（所处的操作系统是什么类型）等信息
       - 举例：User-Agent：Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN;rv:1.8.1.14) Gecko/20080404 Firefox/2.0.0.14
-    * Referer：告诉服务器是从（参考）哪个链接去访问的
-    * * 举例：Referer：
+    - Referer：告诉服务器是从（参考）哪个链接去访问的
+      - 举例：Referer：
         [https://www.google.co.uk/](https://www.google.co.uk/)
-    * Keep-Alive：希望服务器保持此次连接（多长时间）
-    * Cache-Control：表示是否使用缓存
-    * Connection：完成本次请求的响应后，是否断开连接，是否要等待本次连接的后续请求了
-    * * Connection: close
-      * Connection: keepalive
+    - Keep-Alive：希望服务器保持此次连接（多长时间）
+    - Cache-Control：表示是否使用缓存
+    - Connection：完成本次请求的响应后，是否断开连接，是否要等待本次连接的后续请求了
+      - Connection: close
+      - Connection: keepalive
 * Sever返回响应，告诉客户端，自己的响应中数据都是什么类型的
 * * 所以Response中有很多Content方面的字段，表示服务器返回的内容的各种类型说明
   * * Content-Encoding：此响应中使用了什么压缩方法（gzip，deflate）压缩响应中的对象
