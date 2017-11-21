@@ -3,6 +3,7 @@
 下面介绍HTTP的请求参数`Request Parameters`和请求参数的编码`Request Parameters Encoding`
 
 ## GET的请求的参数：`query string`
+
 典型的是：
 
 GET：参数想要放在url中以`?key1=value1&key2=value2`的形式
@@ -26,36 +27,39 @@ GET：参数想要放在url中以`?key1=value1&key2=value2`的形式
 * GET 请求只应当用于取回数据
 
 ## POST的请求的参数：`post body`
+
 典型的是：把一堆的参数，放到`post`的`body`中，格式一般都是`json`格式
 
 则一般也有两种做法：
 
-- 自己把参数（对象，字典等），转换为对应的json字符串
-- 调用库提供的方法去encode你的参数对象为json
-
+* 自己把参数（对象，字典等），转换为对应的json字符串
+* 调用库提供的方法去encode你的参数对象为json
 
 其他一些解释：
 
-- POST 请求不会被缓存
-- POST 请求不会保留在浏览器历史记录中
-- POST 不能被收藏为书签
-- POST 请求对数据长度没有要求
-
+* POST 请求不会被缓存
+* POST 请求不会保留在浏览器历史记录中
+* POST 不能被收藏为书签
+* POST 请求对数据长度没有要求
 
 ## GET和POST的请求的参数的编码
 
 举例：
+
 ### http库axios中create时支持的config中的paramsSerializer
 
 就支持利用其他序列化的库，比如：
-- Javascript中的：
-  - qs库
-    - [https://www.npmjs.com/package/qs](https://www.npmjs.com/package/qs)
-    - 举例：
-      - `Qs.stringify(params, {arrayFormat: 'brackets'})`
+
+* Javascript中的：
+  * qs库
+    * [https://www.npmjs.com/package/qs](https://www.npmjs.com/package/qs)
+    * 举例：
+      * `Qs.stringify(params, {arrayFormat: 'brackets'})`
 
 ### Alamofire中，对于get的参数支持url encoding，对于post支持json encoding
+
 所以代码可以写成：
+
 ```swift
     var paramEncoding:ParameterEncoding = JSONEncoding.default
     if (httpMethod == .get) {
@@ -64,8 +68,8 @@ GET：参数想要放在url中以`?key1=value1&key2=value2`的形式
 
 let curHttpReq = Alamofire.request(url, method: httpMethod, parameters: parameters, encoding: paramEncoding, headers: curHeaders)
 ```
-![](assets/img/2B2421A4-B01C-49BA-B49F-607CD2E7A6C2.png)
 
+![](assets/img/2B2421A4-B01C-49BA-B49F-607CD2E7A6C2.png)
 
 然后从外部调用时，对于get的url参数，可以直接传递：
 
@@ -89,6 +93,7 @@ getUrlRespJson_async(
     parameters: parameters,
     respJsonHandle: { [weak self] (response) in
 ```
+
 ![](assets/img/0450D66D-6641-403F-BF7F-ED9496AD4A30.png)
 
 另外，对应的对于POST来说，把json对象转换为json字符串的例子：
@@ -108,11 +113,13 @@ getUrlRespJson_async(
     parameters: parameters ,
     respJsonHandle: { [weak self] (response) in
 ```
-![](assets/img/7C86AF70-EADF-4E11-A766-12467A62C778.png)
+
+![](assets/img/7C86AF70-EADF-4E11-A766-12467A62C778.png)  
 则内部的Alamofire就会把该参数对象，通过JSONEncoding转换为json字符串了。
 
-举例：
+举例：  
 python中，get中url参数可以利用`urllib.urlencode`（或`urllib.quote_plus`）去把dict字典转换为key=value的形式：
+
 ```python
 import urllib
 params = urllib.urlencode({'spam': 1, 'eggs': 2, 'bacon': 0})
@@ -122,14 +129,57 @@ url = "http://www.musi-cal.com/cgi-bin/query?%s"; % params
 ## 关于HTTP参数编码的常见场景和问题
 
 ### 空格应该被encode编码为`+`还是`%20`？
+
 如果你接触Python的url的encode比较多，可能会注意到一个现象：
 
 好像空格有时候被编码为+，有时候被编码为%20，到底哪个才对？
 
-Percent Encode也被叫做URL Encode
-Percent Encode指的是，一些字符，在被（url）encode后，往往都是变成%xx
-比如：
+Percent Encode也被叫做URL Encode  
+Percent Encode指的是，一些字符，在被（url）encode后，往往都是变成%xx  
+比如：  
 内部对应着HTTP请求时，类型被设置为：`application/x-www-form-urlencoded`
+
+| [!](https://en.wikipedia.org/wiki/Exclamation_mark) |
+| :--- |
+
+
+| [\#](https://en.wikipedia.org/wiki/Number_sign) | [$](https://en.wikipedia.org/wiki/Dollar_sign) | [&](https://en.wikipedia.org/wiki/Ampersand) | ['](https://en.wikipedia.org/wiki/Apostrophe_%28mark%29) | [\(](https://en.wikipedia.org/wiki/Parenthesis) | [\)](https://en.wikipedia.org/wiki/Parenthesis) | [\*](https://en.wikipedia.org/wiki/Asterisk) | [+](https://en.wikipedia.org/wiki/Plus_sign) | [,](https://en.wikipedia.org/wiki/Comma) | [/](https://en.wikipedia.org/wiki/Slash_%28punctuation%29) | [:](https://en.wikipedia.org/wiki/Colon_%28punctuation%29) | [;](https://en.wikipedia.org/wiki/Semicolon) | [=](https://en.wikipedia.org/wiki/Equal_sign) | [?](https://en.wikipedia.org/wiki/Question_mark) | [@](https://en.wikipedia.org/wiki/@) | [\[](https://en.wikipedia.org/wiki/Square_bracket) | [\]](https://en.wikipedia.org/wiki/Square_bracket) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+
+
+| %21 | %23 | %24 | %26 | %27 | %28 | %29 | %2A | %2B | %2C | %2F | %3A | %3B | %3D | %3F | %40 | %5B | %5D |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+
+
+而其他常见的字符被编码后的效果是：
+
+| [newline](https://en.wikipedia.org/wiki/Newline) | [space](https://en.wikipedia.org/wiki/Space_%28punctuation%29) | ["](https://en.wikipedia.org/wiki/Double_quote) | [%](https://en.wikipedia.org/wiki/Percent_sign) | [-](https://en.wikipedia.org/wiki/Hyphen) | [.](https://en.wikipedia.org/wiki/Full_stop) | [&lt;](https://en.wikipedia.org/wiki/Angle_bracket) | [&gt;](https://en.wikipedia.org/wiki/Angle_bracket) | [\](https://en.wikipedia.org/wiki/Back_slash) | [^](https://en.wikipedia.org/wiki/Caret) | [\_](https://en.wikipedia.org/wiki/Underscore) | [\`](https://en.wikipedia.org/wiki/Grave_accent) | [{](https://en.wikipedia.org/wiki/Curly_bracket) | [\|](https://en.wikipedia.org/wiki/Vertical_bar) | [}](https://en.wikipedia.org/wiki/Curly_bracket) | [~](https://en.wikipedia.org/wiki/Tilde) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| %0A or %0D or %0D%0A | %20 | %22 | %25 | %2D | %2E | %3C | %3E | %5C | %5E | %5F | %60 | %7B | %7C | %7D | %7E |
+
+  
+即：
+
+空格正常情况下被url encode=percent encode，的结果是%20
+
+但是之所以有时候会看到+是因为：
+
+历史上，最早的网页技术中，在表单form被（通过HTTP的GET／POST等请求，或者是邮件发送）提交时，键key和值value，都是被percent encode=url encode的
+
+对应着类型是：`application/x-www-form-urlencoded`
+
+但是后来有些变种的处理，其中就包括把空格space编码为+（而不是%20）
+
+总之：
+
+* 空格被url encode=percent encode，应该是：%20
+
+* 而之前历史上有些变种的处理，会编码为：+
+
+而Python中对于url encode相关的函数有3种，对应的效果分别如下：
+
+  
+
 
 
 
