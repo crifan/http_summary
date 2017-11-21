@@ -236,6 +236,14 @@ print "quotedValue=%s,quotedPlusValue=%s"%(quotedValue, quotedPlusValue)
 [https://github.com/imaidev/imaidev.github.io/wiki/wifi%E5%97%85%E6%8E%A2%E4%B8%8E%E5%AE%A2%E6%B5%81%E7%BB%9F%E8%AE%A1](https://github.com/imaidev/imaidev.github.io/wiki/wifi%E5%97%85%E6%8E%A2%E4%B8%8E%E5%AE%A2%E6%B5%81%E7%BB%9F%E8%AE%A1)
 
 -》你可以通过，在地址栏中右键-》复制
+![](assets/img/8BE31A06-4506-4265-B436-888B09223C51.png)
+再粘贴到别的文本工具中，而得到看到真正的被编码后的地址：
+![](assets/img/644015DB-FDF6-48F8-AB2C-E68C76C63AD8.png)
+类似的，把该地址去（利用前面说的在线网站帮忙）解码也可以得到同样的中文：
+
+[http://tool.oschina.net/encode?type=4](http://tool.oschina.net/encode?type=4)
+![](assets/img/0E984231-A46A-49DA-AB4C-8B1B6859BCE2.png)
+
 
   
 
