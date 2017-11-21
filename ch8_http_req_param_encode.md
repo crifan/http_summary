@@ -56,7 +56,14 @@ GET：参数想要放在url中以`?key1=value1&key2=value2`的形式
 
 ### Alamofire中，对于get的参数支持url encoding，对于post支持json encoding
 所以代码可以写成：
+```swift
+    var paramEncoding:ParameterEncoding = JSONEncoding.default
+    if (httpMethod == .get) {
+        paramEncoding = URLEncoding.default
+    }
 
+let curHttpReq = Alamofire.request(url, method: httpMethod, parameters: parameters, encoding: paramEncoding, headers: curHeaders)
+```
 
 
 
