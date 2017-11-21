@@ -139,15 +139,11 @@ Percent Encode指的是，一些字符，在被（url）encode后，往往都是
 比如：  
 内部对应着HTTP请求时，类型被设置为：`application/x-www-form-urlencoded`
 
-| [!](https://en.wikipedia.org/wiki/Exclamation_mark) | [\#](https://en.wikipedia.org/wiki/Number_sign) | [$](https://en.wikipedia.org/wiki/Dollar_sign) | [&](https://en.wikipedia.org/wiki/Ampersand) | ['](https://en.wikipedia.org/wiki/Apostrophe_%28mark%29) | [\(](https://en.wikipedia.org/wiki/Parenthesis) | [\)](https://en.wikipedia.org/wiki/Parenthesis) | [\*](https://en.wikipedia.org/wiki/Asterisk) | [+](https://en.wikipedia.org/wiki/Plus_sign) | [,](https://en.wikipedia.org/wiki/Comma) | [/](https://en.wikipedia.org/wiki/Slash_%28punctuation%29) | [:](https://en.wikipedia.org/wiki/Colon_%28punctuation%29) | [;](https://en.wikipedia.org/wiki/Semicolon) | [=](https://en.wikipedia.org/wiki/Equal_sign) | [?](https://en.wikipedia.org/wiki/Question_mark) | [@](https://en.wikipedia.org/wiki/@) | []] (https://en.wikipedia.org/wiki/Square_bracket) |[\]](https://en.wikipedia.org/wiki/Square_bracket) |
-
+| [!](https://en.wikipedia.org/wiki/Exclamation_mark) | [\#](https://en.wikipedia.org/wiki/Number_sign) | [$](https://en.wikipedia.org/wiki/Dollar_sign) | [&](https://en.wikipedia.org/wiki/Ampersand) | ['](https://en.wikipedia.org/wiki/Apostrophe_%28mark%29) | [\(](https://en.wikipedia.org/wiki/Parenthesis) | [\)](https://en.wikipedia.org/wiki/Parenthesis) | [\*](https://en.wikipedia.org/wiki/Asterisk) | [+](https://en.wikipedia.org/wiki/Plus_sign) | [,](https://en.wikipedia.org/wiki/Comma) | [/](https://en.wikipedia.org/wiki/Slash_%28punctuation%29) | [:](https://en.wikipedia.org/wiki/Colon_%28punctuation%29) | [;](https://en.wikipedia.org/wiki/Semicolon) | [=](https://en.wikipedia.org/wiki/Equal_sign) | [?](https://en.wikipedia.org/wiki/Question_mark) | [@](https://en.wikipedia.org/wiki/@) | [\[](https://en.wikipedia.org/wiki/Square_bracket) | [\]](https://en.wikipedia.org/wiki/Square_bracket) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-
-
 | %21 | %23 | %24 | %26 | %27 | %28 | %29 | %2A | %2B | %2C | %2F | %3A | %3B | %3D | %3F | %40 | %5B | %5D |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 
-
+  
 而其他常见的字符被编码后的效果是：
 
 | [newline](https://en.wikipedia.org/wiki/Newline) | [space](https://en.wikipedia.org/wiki/Space_%28punctuation%29) | ["](https://en.wikipedia.org/wiki/Double_quote) | [%](https://en.wikipedia.org/wiki/Percent_sign) | [-](https://en.wikipedia.org/wiki/Hyphen) | [.](https://en.wikipedia.org/wiki/Full_stop) | [&lt;](https://en.wikipedia.org/wiki/Angle_bracket) | [&gt;](https://en.wikipedia.org/wiki/Angle_bracket) | [\](https://en.wikipedia.org/wiki/Back_slash) | [`^`](https://en.wikipedia.org/wiki/Caret) | [\_](https://en.wikipedia.org/wiki/Underscore) | [\`](https://en.wikipedia.org/wiki/Grave_accent) | [{](https://en.wikipedia.org/wiki/Curly_bracket) | [\|](https://en.wikipedia.org/wiki/Vertical_bar) | [}](https://en.wikipedia.org/wiki/Curly_bracket) | [~](https://en.wikipedia.org/wiki/Tilde) |
@@ -234,22 +230,14 @@ print "quotedValue=%s,quotedPlusValue=%s"%(quotedValue, quotedPlusValue)
 
 实际上内部真正的地址是：
 
-[https://github.com/imaidev/imaidev.github.io/wiki/wifi%E5%97%85%E6%8E%A2%E4%B8%8E%E5%AE%A2%E6%B5%81%E7%BB%9F%E8%AE%A1](https://github.com/imaidev/imaidev.github.io/wiki/wifi%E5%97%85%E6%8E%A2%E4%B8%8E%E5%AE%A2%E6%B5%81%E7%BB%9F%E8%AE%A1)
+[https://github.com/imaidev/imaidev.github.io/wiki/wifi%E5%97%85%E6%8E%A2%E4%B8%8E%E5%AE%A2%E6%B5%81%E7%BB%9F%E8%AE%A1](https://github.com/imaidev/imaidev.github.io/wiki/wifi嗅探与客流统计)
 
--》你可以通过，在地址栏中右键-》复制
-![](assets/img/8BE31A06-4506-4265-B436-888B09223C51.png)
-再粘贴到别的文本工具中，而得到看到真正的被编码后的地址：
-![](assets/img/644015DB-FDF6-48F8-AB2C-E68C76C63AD8.png)
+-》你可以通过，在地址栏中右键-》复制  
+![](assets/img/8BE31A06-4506-4265-B436-888B09223C51.png)  
+再粘贴到别的文本工具中，而得到看到真正的被编码后的地址：  
+![](assets/img/644015DB-FDF6-48F8-AB2C-E68C76C63AD8.png)  
 类似的，把该地址去（利用前面说的在线网站帮忙）解码也可以得到同样的中文：
 
-[http://tool.oschina.net/encode?type=4](http://tool.oschina.net/encode?type=4)
+[http://tool.oschina.net/encode?type=4](http://tool.oschina.net/encode?type=4)  
 ![](assets/img/0E984231-A46A-49DA-AB4C-8B1B6859BCE2.png)
-
-
-  
-
-
-
-
-
 
