@@ -102,11 +102,7 @@ HTTP的Header包括两类：
 
 ### Request的Header
 
-| Header |
-| :--- |
-
-
-|  | 解释 | 示例 |
+| Header| 解释 | 示例 |
 | :--- | :--- | :--- |
 | Accept | 指定客户端能够接收的内容类型 | Accept:text/plain,text/html |
 | Accept-Charset | 浏览器可以接受的字符编码集。 | Accept-Charset:iso-8859-5 |
