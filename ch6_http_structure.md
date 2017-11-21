@@ -55,7 +55,7 @@
       - 403 FORBIDDEN
       - 404 NOT_FOUND
     - Server Error - 5xx
-      - 500 INTERNAL\_SERVER\_ERROR
+      - 500 INTERNAL_SERVER_ERROR
 - Body
   - raw
     - to json
