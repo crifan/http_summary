@@ -29,6 +29,8 @@ GET：参数想要放在url中以`?key1=value1&key2=value2`的形式
 
 ## POST请求的参数和编码
 
+### POST请求的参数：`post body`
+
 典型的是：把一堆的参数，放到post的body中，格式是json格式
 
 则一般也有两种做法：
