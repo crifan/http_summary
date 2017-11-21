@@ -56,11 +56,11 @@
       - 404 NOT_FOUND
     - Server Error - 5xx
       - 500 INTERNAL\_SERVER\_ERROR
-  - Body
-    - raw
-      - to json
-  - Other
-    - Cookie
+- Body
+  - raw
+    - to json
+- Other
+  - Cookie
 
 
 
