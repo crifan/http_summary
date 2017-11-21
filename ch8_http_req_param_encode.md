@@ -168,7 +168,6 @@ Percent Encode指的是，一些字符，在被（url）encode后，往往都是
 总之：
 
 * 空格被url encode=percent encode，应该是：%20
-
 * 而之前历史上有些变种的处理，会编码为：+
 
 而Python中对于url encode相关的函数有3种，对应的效果分别如下：
