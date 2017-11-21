@@ -20,7 +20,7 @@
   - OPTIONS：获取信息，关于资源的哪些属性是客户端可以改变的
 - Parameters
   - for GET
-    - query string=qs=query parameters=params=query component
+    - `query string`=`qs`=`query parameters`=`params`=`query component`
       - /xxx/xxx?key1=value1&key2=value2
   - for POST
     - body
