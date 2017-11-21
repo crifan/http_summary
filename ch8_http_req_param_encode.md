@@ -231,5 +231,16 @@ print "quotedValue=%s,quotedPlusValue=%s"%(quotedValue, quotedPlusValue)
 
 ![](/assets/img/chrome_address_with_zhcn.png)
 
+实际上内部真正的地址是：
+
+[https://github.com/imaidev/imaidev.github.io/wiki/wifi%E5%97%85%E6%8E%A2%E4%B8%8E%E5%AE%A2%E6%B5%81%E7%BB%9F%E8%AE%A1](https://github.com/imaidev/imaidev.github.io/wiki/wifi%E5%97%85%E6%8E%A2%E4%B8%8E%E5%AE%A2%E6%B5%81%E7%BB%9F%E8%AE%A1)
+
+-》你可以通过，在地址栏中右键-》复制
+
+  
+
+
+
+
 
 
