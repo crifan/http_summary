@@ -8,30 +8,29 @@ HTTP的Header包括两类：
 逻辑总结：  
 既然是 Client问 Sever答的过程，那么基本逻辑就是：
 
-Client告诉服务器端，自己的Request请求，能够接受的各种信息是什么类型的
-
-* * 所以Request中有很多Accept方面的请求头
-  * * Accept：能接受（返回）哪些类型
-    * * 格式：type/sub-type
-      * * \*/\* 表示任何类型
-      * 举例：
-      * * Accept: application/json
-        * Accept: text/plain
-        * Accept: text/html
-        * Accept: image/jpeg
-        * Accept: application/msword
-        * Accept: image/png
-        * Accept: application/pdf
-    * Accept-Charset
-    * * 能接受的字符集
-    * Accept-Encoding
-    * * 能接受的（编码）压缩类型
-      * * 比如：gzip，deflate
-    * Accept-Language
-    * * 能接受的语言类型
-  * 以及其他一些额外的请求和希望
-  * * User-Agent:告诉你我是哪种浏览器（所处的操作系统是什么类型）等信息
-    * * 举例：User-Agent：Mozilla/5.0 \(Windows; U; Windows NT 5.1; zh-CN;  
+- Client告诉服务器端，自己的Request请求，能够接受的各种信息是什么类型的
+  - 所以Request中有很多Accept方面的请求头
+    - Accept：能接受（返回）哪些类型
+      - 格式：type/sub-type
+        - */* 表示任何类型
+      - 举例：
+        - Accept: application/json
+        - Accept: text/plain
+        - Accept: text/html
+        - Accept: image/jpeg
+        - Accept: application/msword
+        - Accept: image/png
+        - Accept: application/pdf
+    - Accept-Charset
+      - 能接受的字符集
+    - Accept-Encoding
+      - 能接受的（编码）压缩类型
+        - 比如：gzip，deflate
+    - Accept-Language
+      - 能接受的语言类型
+  - 以及其他一些额外的请求和希望
+    - User-Agent:告诉你我是哪种浏览器（所处的操作系统是什么类型）等信息
+      - 举例：User-Agent：Mozilla/5.0 \(Windows; U; Windows NT 5.1; zh-CN;  
       *                                        rv:1.8.1.14\) Gecko/20080404 Firefox/2.0.0.14
     * Referer：告诉服务器是从（参考）哪个链接去访问的
     * * 举例：Referer：
