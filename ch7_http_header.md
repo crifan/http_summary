@@ -7,7 +7,7 @@ HTTP的Header包括两类：
 
 ## HTTP的Header方面的逻辑总结
 
-既然是 Client问 Sever答的过程，那么基本逻辑就是：
+既然是`Client问, Sever答`的过程，那么基本逻辑就是：
 
 * Client告诉服务器端，自己的Request请求，能够接受的各种信息是什么类型的
   * 所以Request中有很多Accept方面的请求头
