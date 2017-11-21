@@ -47,6 +47,12 @@ GET：参数想要放在url中以`?key1=value1&key2=value2`的形式
 举例：
 ### http库axios中create时支持的config中的paramsSerializer
 
+就支持利用其他序列化的库，比如：
+- Javascript中的：
+  - qs库
+    - [https://www.npmjs.com/package/qs](https://www.npmjs.com/package/qs)
+    - 举例：
+      - `Qs.stringify(params, {arrayFormat: 'brackets'})`
 
 
 
