@@ -119,6 +119,8 @@ params = urllib.urlencode({'spam': 1, 'eggs': 2, 'bacon': 0})
 url = "http://www.musi-cal.com/cgi-bin/query?%s"; % params
 ```
 
+## 关于HTTP参数编码的常见场景和问题
+
 
 
 
