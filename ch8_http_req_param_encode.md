@@ -2,9 +2,7 @@
 
 下面介绍HTTP的请求参数`Request Parameters`和请求参数的编码`Request Parameters Encoding`
 
-## GET请求的参数和编码
-
-### GET请求的参数：`query string`
+## GET请求的参数：`query string`
 典型的是：
 
 GET：参数想要放在url中以`?key1=value1&key2=value2`的形式
@@ -27,12 +25,7 @@ GET：参数想要放在url中以`?key1=value1&key2=value2`的形式
 * GET 请求不应在处理敏感数据时使用
 * GET 请求只应当用于取回数据
 
-### GET请求参数的编码
-
-举例：
-
-
-## POST请求的参数和编码
+## POST请求的参数
 
 ### POST请求的参数：`post body`
 
@@ -50,6 +43,11 @@ GET：参数想要放在url中以`?key1=value1&key2=value2`的形式
 - POST 请求不会保留在浏览器历史记录中
 - POST 不能被收藏为书签
 - POST 请求对数据长度没有要求
+
+
+## GET和POST的请求的参数的编码
+
+举例：
 
 
 
