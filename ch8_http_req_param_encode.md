@@ -4,6 +4,7 @@
 
 ## GET请求的参数和编码
 
+### GET请求的参数：query string
 典型的是：
 
 GET：参数想要放在url中以`?key1=value1&key2=value2`的形式
