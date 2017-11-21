@@ -19,10 +19,10 @@
   - HEAD：获取资源的元数据
   - OPTIONS：获取信息，关于资源的哪些属性是客户端可以改变的
 - Parameters
-  - for GET
+  - for `GET`
     - `query string`=`qs`=`query parameters`=`params`=`query component`
       - /xxx/xxx?key1=value1&key2=value2
-  - for POST
+  - for `POST`
     - body
       - JSON
       - url encoded:
