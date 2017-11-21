@@ -25,7 +25,7 @@
   - for `POST`
     - body
       - JSON
-      - url encoded:
+      - url encoded
         - key1=value1&key2=value2
 - Headers
   - Content-Type
