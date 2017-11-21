@@ -93,6 +93,21 @@ getUrlRespJson_async(
 
 另外，对应的对于POST来说，把json对象转换为json字符串的例子：
 
+```swift
+let parameters = [
+    "id":self.missionInfo.missionProblem.id as AnyObject,
+    "checkPlanId":self.checkPlanId as AnyObject,
+    "checkResult":self.resultCell.textview.text as AnyObject,
+    "pass":self.pass as AnyObject ,
+
+] as [String : AnyObject]?
+
+getUrlRespJson_async(
+    httpMethod: .post,
+    url:  ServerApi.getProblemIdResult(visitId: self.visitId,problemId: self.missionInfo.missionProblem.id),
+    parameters: parameters ,
+    respJsonHandle: { [weak self] (response) in
+```
 
 
 
