@@ -121,6 +121,8 @@ url = "http://www.musi-cal.com/cgi-bin/query?%s"; % params
 
 ## 关于HTTP参数编码的常见场景和问题
 
+### 空格应该被encode编码为`+`还是`%20`？
+
 
 
 
