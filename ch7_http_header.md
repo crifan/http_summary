@@ -132,7 +132,7 @@ HTTP的Header包括两类：
 | TE | 客户端愿意接受的传输编码，并通知服务器接受接受尾加头信息 | TE:trailers,deflate;q=0.5 |
 | Upgrade | 向服务器指定某种传输协议以便服务器进行转换（如果支持） | Upgrade:HTTP/2.0,SHTTP/1.3,IRC/6.9,RTA/x11 |
 | User-Agent | User-Agent的内容包含发出请求的用户信息 | User-Agent:Mozilla/5.0\(Linux;X11\) |
-| Via | 通知中间网关或代理服务器地址，通信协议 | Via:1.0 fred,1.1[nowhere.com](http://nowhere.com)\(Apache/1.1\) |
+| Via | 通知中间网关或代理服务器地址，通信协议 | Via:1.0 fred,1.1 nowhere.com \(Apache/1.1\) |
 | Warning | 关于消息实体的警告信息 | Warn:199 Miscellaneous warning |
 
 
