@@ -122,7 +122,9 @@ url = "http://www.musi-cal.com/cgi-bin/query?%s"; % params
 ## 关于HTTP参数编码的常见场景和问题
 
 ### 空格应该被encode编码为`+`还是`%20`？
+如果你接触Python的url的encode比较多，可能会注意到一个现象：
 
+好像空格有时候被编码为+，有时候被编码为%20，到底哪个才对？
 
 
 
