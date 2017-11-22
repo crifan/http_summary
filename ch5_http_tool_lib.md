@@ -42,4 +42,4 @@
 * [SuperAgent](https://github.com/visionmedia/superagent)
 
 ### C&#35;
-- [HttpWebRequest](https://msdn.microsoft.com/en-us/library/system.net.httpwebrequest\(v\=vs.110\).aspx)
+- [HttpWebRequest](https://msdn.microsoft.com/en-us/library/system.net.httpwebrequest&#40;v=vs.110&#41;.aspx)
