@@ -13,5 +13,10 @@
   },
   "plugins": [
     "-search"
-  ]
+  ],
+  "pluginsConfig": {
+    "theme-default": {
+        "showLevel": true
+    }
+  }
 }
