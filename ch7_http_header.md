@@ -11,9 +11,9 @@ HTTP的Header包括两类：
 
 * Client告诉服务器端，自己的Request请求，能够接受的各种信息是什么类型的
   * 所以Request中有很多Accept方面的请求头
-    - Accept：能接受（返回）哪些类型
-      - 格式：type/sub-type
-        - \*/\* 表示任何类型
+    * Accept：能接受（返回）哪些类型
+      * 格式：type/sub-type
+        * \*/\* 表示任何类型
       * 举例：
         * Accept: application/json
         * Accept: text/plain
