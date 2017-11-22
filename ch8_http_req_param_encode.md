@@ -145,20 +145,20 @@ Percent Encode指的是，一些字符，在被（url）encode后，往往都是
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | %21 | %23 | %24 | %26 | %27 | %28 | %29 | %2A | %2B |
 
-
 和：
 
-| [,](https://en.wikipedia.org/wiki/Comma) | [/](https://en.wikipedia.org/wiki/Slash_%28punctuation%29) | [:](https://en.wikipedia.org/wiki/Colon_%28punctuation%29) | [;](https://en.wikipedia.org/wiki/Semicolon) | [=](https://en.wikipedia.org/wiki/Equal_sign) | [?](https://en.wikipedia.org/wiki/Question_mark) | [@](https://en.wikipedia.org/wiki/@) | [&#91;](https://en.wikipedia.org/wiki/Square_bracket) | [\]](https://en.wikipedia.org/wiki/Square_bracket) |
+| [,](https://en.wikipedia.org/wiki/Comma) | [/](https://en.wikipedia.org/wiki/Slash_%28punctuation%29) | [:](https://en.wikipedia.org/wiki/Colon_%28punctuation%29) | [;](https://en.wikipedia.org/wiki/Semicolon) | [=](https://en.wikipedia.org/wiki/Equal_sign) | [?](https://en.wikipedia.org/wiki/Question_mark) | [@](https://en.wikipedia.org/wiki/@) | [\[](https://en.wikipedia.org/wiki/Square_bracket) | [\]](https://en.wikipedia.org/wiki/Square_bracket) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | %2C | %2F | %3A | %3B | %3D | %3F | %40 | %5B | %5D |
 
 而其他常见的字符被编码后的效果是：
+
 | [newline](https://en.wikipedia.org/wiki/Newline) | [space](https://en.wikipedia.org/wiki/Space_%28punctuation%29) | ["](https://en.wikipedia.org/wiki/Double_quote) | [%](https://en.wikipedia.org/wiki/Percent_sign) | [-](https://en.wikipedia.org/wiki/Hyphen) | [.](https://en.wikipedia.org/wiki/Full_stop) | [&lt;](https://en.wikipedia.org/wiki/Angle_bracket) | [&gt;](https://en.wikipedia.org/wiki/Angle_bracket) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| %0A or %0D or %0D%0A | %20 | %22 | %25 | %2D | %2E | %3C | %3E |
-
+| %0A or %0D or %0D%0A | %20 | %22 | %25 | %2D | %2E | %3C | %3E |
 和
-| [\\](https://en.wikipedia.org/wiki/Back_slash) | [&#94;](https://en.wikipedia.org/wiki/Caret) | [\_](https://en.wikipedia.org/wiki/Underscore) | [\`](https://en.wikipedia.org/wiki/Grave_accent) | [{](https://en.wikipedia.org/wiki/Curly_bracket) | [\|](https://en.wikipedia.org/wiki/Vertical_bar) | [}](https://en.wikipedia.org/wiki/Curly_bracket) | [~](https://en.wikipedia.org/wiki/Tilde) |
+
+| [\](https://en.wikipedia.org/wiki/Back_slash) | [`^`](https://en.wikipedia.org/wiki/Caret) | [\_](https://en.wikipedia.org/wiki/Underscore) | [\`](https://en.wikipedia.org/wiki/Grave_accent) | [{](https://en.wikipedia.org/wiki/Curly_bracket) | [\|](https://en.wikipedia.org/wiki/Vertical_bar) | [}](https://en.wikipedia.org/wiki/Curly_bracket) | [~](https://en.wikipedia.org/wiki/Tilde) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | %5C | %5E | %5F | %60 | %7B | %7C | %7D | %7E |
 
