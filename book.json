@@ -2,12 +2,13 @@
   "title": "HTTP知识总结",
   "description": "总结HTTP方面的技术供参考和学习",
   "author": "Crifan Li <admin@crifan.com>",
-  "language": "zh",
+  "language": "zh-hans",
   "gitbook": "3.2.3",
   "root": ".",
   "links": {
     "sidebar": {
-      "主页": "http://www.crifan.com"
+      "主页": "http://www.crifan.com",
+      "Github源码": "https://github.com/crifan/http_summary"
     }
   },
   "plugins": [
