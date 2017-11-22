@@ -35,10 +35,11 @@
     * [Requests](https://github.com/requests/requests)
 
 ### Javascript
-- [Request](https://github.com/request/request)
-- [axios](https://github.com/mzabriskie/axios)
-- [Web API的Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
-    - [window.fetch polyfill](https://github.com/github/fetch)
+* [Request](https://github.com/request/request)
+* [axios](https://github.com/mzabriskie/axios)
+* [Web API的Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+    * [window.fetch polyfill](https://github.com/github/fetch)
+* [SuperAgent](https://github.com/visionmedia/superagent)
 
 ### C#
 - [HttpWebRequest](https://msdn.microsoft.com/en-us/library/system.net.httpwebrequest\(v=vs.110\).aspx)
