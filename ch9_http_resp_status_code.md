@@ -51,8 +51,7 @@
   * 409 CONFLICT
   * * 有冲突
     * 举例：新建一个用户，但是主键手机号和之前已有用户冲突
-* Server Error - 5xx：
-  服务器错误类，服务器不能实现一种明显无效的请求
+* Server Error - 5xx：服务器错误类，服务器不能实现一种明显无效的请求
 * * 502 BAD GATEWAY
   * * 网管错误
   * 503 SERVICE UNAVAILABLE
