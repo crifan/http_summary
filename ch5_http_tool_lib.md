@@ -41,5 +41,5 @@
     * [window.fetch polyfill](https://github.com/github/fetch)
 * [SuperAgent](https://github.com/visionmedia/superagent)
 
-### C#
+### C\#
 - [HttpWebRequest](https://msdn.microsoft.com/en-us/library/system.net.httpwebrequest\(v=vs.110\).aspx)
