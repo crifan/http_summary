@@ -158,7 +158,7 @@ Percent Encode指的是，一些字符，在被（url）encode后，往往都是
 | %0A or %0D or %0D%0A | %20 | %22 | %25 | %2D | %2E | %3C | %3E |
 和
 
-| [\](https://en.wikipedia.org/wiki/Back_slash) | [`^`](https://en.wikipedia.org/wiki/Caret) | [\_](https://en.wikipedia.org/wiki/Underscore) | [\`](https://en.wikipedia.org/wiki/Grave_accent) | [{](https://en.wikipedia.org/wiki/Curly_bracket) | [\|](https://en.wikipedia.org/wiki/Vertical_bar) | [}](https://en.wikipedia.org/wiki/Curly_bracket) | [~](https://en.wikipedia.org/wiki/Tilde) |
+| [\](https://en.wikipedia.org/wiki/Back_slash) | [&#94;](https://en.wikipedia.org/wiki/Caret) | [\_](https://en.wikipedia.org/wiki/Underscore) | [\`](https://en.wikipedia.org/wiki/Grave_accent) | [{](https://en.wikipedia.org/wiki/Curly_bracket) | [\|](https://en.wikipedia.org/wiki/Vertical_bar) | [}](https://en.wikipedia.org/wiki/Curly_bracket) | [~](https://en.wikipedia.org/wiki/Tilde) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | %5C | %5E | %5F | %60 | %7B | %7C | %7D | %7E |
 
