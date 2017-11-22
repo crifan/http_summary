@@ -211,10 +211,9 @@ print "quotedValue=%s,quotedPlusValue=%s"%(quotedValue, quotedPlusValue)
 
 * `http://tool.chinaz.com/tools/urlencode.aspx`
 * `http://tool.oschina.net/encode?type=4`
-  输入中文
-  `李茂`
-  就可以被（UTF-8）编码为：
-  `%e6%9d%8e%e8%8c%82`
+
+输入中文**李茂**就可以被（UTF-8）编码为：`%e6%9d%8e%e8%8c%82`
+
 
 ![](assets/img/665389BA-F1E4-4A17-B2FF-BEF7E773DD8D.png)  
 ![](assets/img/D980D429-8ED2-4EAF-92A0-EC1AAD7E542B.png)
