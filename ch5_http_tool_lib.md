@@ -22,16 +22,17 @@
 
 ## HTTP的代码方面的库
 ### iOS的swift／OC
-- 第三方：
-    - [Alamofire](https://github.com/Alamofire/Alamofire)
-- swift
-    - [SwiftHTTP](https://github.com/daltoniam/SwiftHTTP)
+* 第三方：
+    * [Alamofire](https://github.com/Alamofire/Alamofire)
+* swift
+    * [SwiftHTTP](https://github.com/daltoniam/SwiftHTTP)
 ### Python
-- 内置：
-    - [urllib](https://docs.python.org/2/library/urllib.html)
-    - [urllib2](https://docs.python.org/2/library/urllib2.html)
-- 第三方：
-    - [Requests](https://github.com/requests/requests)
+* 内置：
+    * [urllib](https://docs.python.org/2/library/urllib.html)
+    * [urllib2](https://docs.python.org/2/library/urllib2.html)
+* 第三方：
+    * [Requests](https://github.com/requests/requests)
+
 ### Javascript
 - [Request](https://github.com/request/request)
 - [axios](https://github.com/mzabriskie/axios)
