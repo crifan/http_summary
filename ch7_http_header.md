@@ -31,7 +31,9 @@ HTTP的Header包括两类：
       * 能接受的语言类型
   * 以及其他一些额外的请求和希望
     * User-Agent:告诉你我是哪种浏览器（所处的操作系统是什么类型）等信息
-      * 举例：User-Agent：Mozilla/5.0 \(Windows; U; Windows NT 5.1; zh-CN;rv:1.8.1.14\) Gecko/20080404 Firefox/2.0.0.14
+      * 举例：
+        * User-Agent：Mozilla/5.0 \(Windows; U; Windows NT 5.1; zh-CN;rv:1.8.1.14\) Gecko/20080404 Firefox/2.0.0.14
+        * Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
     * Referer：告诉服务器是从（参考）哪个链接去访问的
       * 举例：Referer：
         [https://www.google.co.uk/](https://www.google.co.uk/)
