@@ -28,7 +28,9 @@ HTTP协议规定的响应的格式：
 ![](../assets/img/4DDE8C10-6593-4BFD-8BBC-A15A79698C25.png)
 举例：
 ![](../assets/img/8495B70C-58BC-4786-940A-FC5834B12343.jpg)
+
 此处的：
+
 ```bash
 < HTTP/1.1 200 OK
 。。。
