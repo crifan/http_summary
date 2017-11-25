@@ -19,7 +19,7 @@
 ## 用Chrome的开发者工具去查看
 先去打开：
 右上角 三个点-》更多工具-》开发者工具
-![](assets/img/9EED85A6-83B3-42DB-85D5-2B3B3E5F06A5.png)
+![](../assets/img/9EED85A6-83B3-42DB-85D5-2B3B3E5F06A5.png)
 
 点击到Network列，然后再去访问地址www.baidu.com
 
@@ -27,11 +27,11 @@
 
 即可看到，对应的Request和Response的信息：
 
-![](assets/img/681BB8D6-73BC-4EAD-804E-4014E5C12299.png)
+![](../assets/img/681BB8D6-73BC-4EAD-804E-4014E5C12299.png)
 
 通过点击Request Headers和Response Headers的view source可以看到未被解析之前的原始内容：
-![](assets/img/B7221FAE-3275-4973-88BC-D4E79EB59875.png)
-![](assets/img/58E15E6F-F862-4DFA-B248-EA981AB89FE6.png)
+![](../assets/img/B7221FAE-3275-4973-88BC-D4E79EB59875.png)
+![](../assets/img/58E15E6F-F862-4DFA-B248-EA981AB89FE6.png)
 
 对应的原始内容为：
 
@@ -108,13 +108,13 @@ curl -v www.baidu.com
 * Connection #0 to host www.baidu.com left intact
 ```
 
-![](assets/img/1D928B86-A1C2-404B-A682-48332C1F71DF.png)
+![](../assets/img/1D928B86-A1C2-404B-A682-48332C1F71DF.png)
 
 ## 用`postman`去模拟前面的调用后台接口的登录过程
-![](assets/img/4ACF224B-4768-406B-B28D-50F8131C38C4.png)
+![](../assets/img/4ACF224B-4768-406B-B28D-50F8131C38C4.png)
 
 其中内部发送的HTTP请求，可以通过Code查看：
-![](assets/img/523C7AA5-AF8F-477A-A7CF-BA415AC37F8F.png)
+![](../assets/img/523C7AA5-AF8F-477A-A7CF-BA415AC37F8F.png)
 
 ```bash
 POST /v1/skr/login HTTP/1.1

@@ -7,7 +7,7 @@
 
 举例：比如用Postman去调试奶牛云的后台的登录接口：
 
-![](assets/img/38CFDEB6-8637-4C7C-AC2E-14C7F3AD9B5A.png)
+![](../assets/img/38CFDEB6-8637-4C7C-AC2E-14C7F3AD9B5A.png)
 
 ### Chrome的开发者工具Developer Tools
 调试页面内容是否正常，包括布局，参数等等

@@ -15,8 +15,6 @@ GET：参数想要放在url中以`?key1=value1&key2=value2`的形式
 
 其他一些注意和解释：
 
-其他一些注意和解释：
-
 * GET 请求有长度限制
   * 所以query string一般被限制在1024个字节
     * 超过限制则后台无法解析参数
@@ -69,7 +67,7 @@ GET：参数想要放在url中以`?key1=value1&key2=value2`的形式
 let curHttpReq = Alamofire.request(url, method: httpMethod, parameters: parameters, encoding: paramEncoding, headers: curHeaders)
 ```
 
-![](assets/img/2B2421A4-B01C-49BA-B49F-607CD2E7A6C2.png)
+![](../assets/img/2B2421A4-B01C-49BA-B49F-607CD2E7A6C2.png)
 
 然后从外部调用时，对于get的url参数，可以直接传递：
 
@@ -94,7 +92,7 @@ getUrlRespJson_async(
     respJsonHandle: { [weak self] (response) in
 ```
 
-![](assets/img/0450D66D-6641-403F-BF7F-ED9496AD4A30.png)
+![](../assets/img/0450D66D-6641-403F-BF7F-ED9496AD4A30.png)
 
 另外，对应的对于POST来说，把json对象转换为json字符串的例子：
 
@@ -114,7 +112,7 @@ getUrlRespJson_async(
     respJsonHandle: { [weak self] (response) in
 ```
 
-![](assets/img/7C86AF70-EADF-4E11-A766-12467A62C778.png)  
+![](../assets/img/7C86AF70-EADF-4E11-A766-12467A62C778.png)  
 则内部的Alamofire就会把该参数对象，通过JSONEncoding转换为json字符串了。
 
 举例：  
@@ -215,8 +213,8 @@ print "quotedValue=%s,quotedPlusValue=%s"%(quotedValue, quotedPlusValue)
 输入中文**李茂**就可以被（UTF-8）编码为：`%e6%9d%8e%e8%8c%82`
 
 
-![](assets/img/665389BA-F1E4-4A17-B2FF-BEF7E773DD8D.png)  
-![](assets/img/D980D429-8ED2-4EAF-92A0-EC1AAD7E542B.png)
+![](../assets/img/665389BA-F1E4-4A17-B2FF-BEF7E773DD8D.png)  
+![](../assets/img/D980D429-8ED2-4EAF-92A0-EC1AAD7E542B.png)
 
 注：
 
@@ -224,7 +222,7 @@ print "quotedValue=%s,quotedPlusValue=%s"%(quotedValue, quotedPlusValue)
 * 上面编码也都是采用的UTF-8编码得到的结果
 
 而如果想要换成别的编码，比如另一种常见的中文编码GB2312，则编码出来的是另外的结果：  
-![](assets/img/61CD3BDE-03EF-48A8-811E-DE5572656473.png)  
+![](../assets/img/61CD3BDE-03EF-48A8-811E-DE5572656473.png)  
 即：
 
 * 李茂 -》 `UTF-8`编码后 -》`%e6%9d%8e%e8%8c%82`
@@ -237,18 +235,18 @@ print "quotedValue=%s,quotedPlusValue=%s"%(quotedValue, quotedPlusValue)
 比如你在Chrome（或其他浏览器）中看到的地址中有中文：  
 `https://github.com/imaidev/imaidev.github.io/wiki/wifi嗅探与客流统计`
 
-![](/assets/img/chrome_address_with_zhcn.png)
+![](/../assets/img/chrome_address_with_zhcn.png)
 
 实际上内部真正的地址是：
 
 [https://github.com/imaidev/imaidev.github.io/wiki/wifi%E5%97%85%E6%8E%A2%E4%B8%8E%E5%AE%A2%E6%B5%81%E7%BB%9F%E8%AE%A1](https://github.com/imaidev/imaidev.github.io/wiki/wifi嗅探与客流统计)
 
 -》你可以通过，在地址栏中右键-》复制  
-![](assets/img/8BE31A06-4506-4265-B436-888B09223C51.png)  
+![](../assets/img/8BE31A06-4506-4265-B436-888B09223C51.png)  
 再粘贴到别的文本工具中，而得到看到真正的被编码后的地址：  
-![](assets/img/644015DB-FDF6-48F8-AB2C-E68C76C63AD8.png)  
+![](../assets/img/644015DB-FDF6-48F8-AB2C-E68C76C63AD8.png)  
 类似的，把该地址去（利用前面说的在线网站帮忙）解码也可以得到同样的中文：
 
 [http://tool.oschina.net/encode?type=4](http://tool.oschina.net/encode?type=4)  
-![](assets/img/0E984231-A46A-49DA-AB4C-8B1B6859BCE2.png)
+![](../assets/img/0E984231-A46A-49DA-AB4C-8B1B6859BCE2.png)
 

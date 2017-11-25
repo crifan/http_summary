@@ -11,7 +11,6 @@ HTTP的总体思路是：
 - 客户端Client 问=`请求`=`Request`
 - 服务器Server 答=`响应`=`Response`
 
-
 关于HTTP的相关的详细知识，或许很多人不是很熟悉。
 但是：
 - 作为普通电脑用户的你，经常用`浏览器`（`IE`/`Chrome`/`Firefox`等）去浏览网页时
@@ -25,16 +24,16 @@ HTTP的总体思路是：
 比如用户在用浏览器去打开网址：
 [www.baidu.com](http://www.baidu.com)
 去查看网页内容：
-![打开百度页面](assets/img/2D3C5583-DE77-4BA8-A128-FCC1218B5FA8.png)
+![打开百度页面](../assets/img/2D3C5583-DE77-4BA8-A128-FCC1218B5FA8.png)
 
 ## 程序员写代码去调用后台接口
 比如 （卓越一线的iOS的）swift代码中利用`Alamofire`的HTTP网络库，去实现：
 
 传递用户名ID+密码的参数和POST类型，调用Alamofire发送请求，完成用户的登录
 
-![](assets/img/2F0FA94A-462F-49D5-8249-D7BFAE34CB76.png)
+![](../assets/img/2F0FA94A-462F-49D5-8249-D7BFAE34CB76.png)
 
-![](assets/img/446072B2-ECCA-4D32-88C4-91CE64F85605.png)
+![](../assets/img/446072B2-ECCA-4D32-88C4-91CE64F85605.png)
 
 
 

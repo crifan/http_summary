@@ -172,4 +172,3 @@ HTTP的Header包括两类：
 | WWW-Authenticate | 表明客户端请求实体应该使用的授权方案 | WWW-Authenticate: Basic |
 
 
-

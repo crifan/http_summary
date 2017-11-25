@@ -2,7 +2,7 @@
 上述的所有用浏览器访问网页，用代码调用后台接口去登录等等，其内部的HTTP的基本逻辑和核心流程都是一样的：
 ## （客户端）发送请求Request
 HTTP协议规定request的格式：
-![](assets/img/DB7AD0DA-1C42-4504-B8C5-D8DFCE4444A4.png)
+![](../assets/img/DB7AD0DA-1C42-4504-B8C5-D8DFCE4444A4.png)
 此处：
 ```bash
 GET / HTTP/1.1
@@ -25,9 +25,9 @@ Accept: */*
 
 ## 获得（服务器返回的）响应Response
 HTTP协议规定的响应的格式：
-![](assets/img/4DDE8C10-6593-4BFD-8BBC-A15A79698C25.png)
+![](../assets/img/4DDE8C10-6593-4BFD-8BBC-A15A79698C25.png)
 举例：
-![](assets/img/8495B70C-58BC-4786-940A-FC5834B12343.jpg)
+![](../assets/img/8495B70C-58BC-4786-940A-FC5834B12343.jpg)
 此处的：
 ```bash
 < HTTP/1.1 200 OK
