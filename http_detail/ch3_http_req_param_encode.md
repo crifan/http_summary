@@ -235,7 +235,7 @@ print "quotedValue=%s,quotedPlusValue=%s"%(quotedValue, quotedPlusValue)
 比如你在Chrome（或其他浏览器）中看到的地址中有中文：  
 `https://github.com/imaidev/imaidev.github.io/wiki/wifi嗅探与客流统计`
 
-![](/../assets/img/chrome_address_with_zhcn.png)
+![](../assets/img/chrome_address_with_zhcn.png)
 
 实际上内部真正的地址是：
 
