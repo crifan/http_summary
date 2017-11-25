@@ -3,6 +3,7 @@
 ## （客户端）发送请求Request
 HTTP协议规定request的格式：
 ![](../assets/img/DB7AD0DA-1C42-4504-B8C5-D8DFCE4444A4.png)
+
 此处：
 ```bash
 GET / HTTP/1.1
