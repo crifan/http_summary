@@ -4,7 +4,7 @@
 
 ## HTTP简介
 
-* [\[HTTP简介\]\[http\_intro/README.md\]](httpjian-jie/httpjian-4ecb5d5b-http-intro-readme-md.md)
+* [HTTP简介](httpjian-jie/httpjian-4ecb5d5b-http-intro-readme-md.md)
   * [HTTP学习目的](http_intro/ch1_http_learn_purpose.md)
   * [HTTP简介](http_intro/ch2_http_intro.md)
   * [HTTP内部流程](http_intro/ch3_http_internal_process.md)
