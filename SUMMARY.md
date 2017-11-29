@@ -3,7 +3,7 @@
 ### 前言
 * [前言](README.md)
 
-### HTTP简介
+### [HTTP简介](http_intro/README.md)
 * [HTTP简介](http_intro/README.md)
 * [HTTP学习目的](http_intro/ch1_http_learn_purpose.md)
 * [HTTP简介](http_intro/ch2_http_intro.md)
