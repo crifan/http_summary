@@ -1,15 +1,7 @@
 # 参考资料
 
-## 优质教程
-
-* [HTTP 协议入门 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2016/08/http.html)
-* [curl网站开发指南 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2011/09/curl.html)
-
-## 参考资料
-
 * [URL encoding the space character: + or %20? - Stack Overflow](https://stackoverflow.com/questions/1634271/url-encoding-the-space-character-or-20)
 * [Percent-encoding - Wikipedia](https://en.wikipedia.org/wiki/URL_encoding)
-
 * [GitHub - Alamofire/Alamofire: Elegant HTTP Networking in Swift](https://github.com/Alamofire/Alamofire)
 * [GitHub - requests/requests: Python HTTP Requests for Humans™ ✨🍰✨](https://github.com/requests/requests)
 * [python中 urllib, urllib2, httplib, httplib2 几个库的区别](https://my.oschina.net/sukai/blog/611451)
