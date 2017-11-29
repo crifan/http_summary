@@ -4,7 +4,7 @@
 * [前言](README.md)
 
 
-## PART I
+## HTTP简介
 * [HTTP简介](http_intro/README.md)
   * [HTTP学习目的](http_intro/ch1_http_learn_purpose.md)
   * [HTTP简介](http_intro/ch2_http_intro.md)
@@ -12,7 +12,7 @@
   * [HTTP基本逻辑总结](http_intro/ch4_http_basic_logic.md)
 
 
-## PART II
+## HTTP详解
 * [HTTP详解](http_detail/README.md)
   * [HTTP的典型结构](http_detail/ch1_http_structure.md)
   * [HTTP的Header头](http_detail/ch2_http_header.md)
