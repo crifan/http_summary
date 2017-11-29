@@ -13,7 +13,8 @@
   },
   "plugins": [
     "-search",
-    "multipart"
+    "multipart",
+    "numbered-headings"
   ],
   "pluginsConfig": {
     "theme-default": {
