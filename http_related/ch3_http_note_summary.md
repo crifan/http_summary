@@ -58,6 +58,11 @@ iOS（swift）对于http库，[Alamofire的响应返回默认处于主的UI线�
 * http函数getUrlRespJson\_async详见 [CrifanLibHttp.swift](https://github.com/crifan/crifanLib/blob/master/swift/Http/CrifanLibHttp.swift)
 * 线程函数dispatchBackground\_async详见：[CrifanThread.swift](https://github.com/crifan/crifanLib/blob/master/swift/Thread/CrifanThread.swift)
 
+## 断点续传就是利用Http的Range实现的
+
+
+
+详见：[［已解决］swift 下载时支持断点续传](http://www.crifan.com/ios_swift_download_support_breakpoint_resume)
 
 
 
