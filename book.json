@@ -12,9 +12,7 @@
     }
   },
   "plugins": [
-    "-search",
-    "multipart",
-    "numbered-headings"
+    "-search"
   ],
   "pluginsConfig": {
     "theme-default": {
