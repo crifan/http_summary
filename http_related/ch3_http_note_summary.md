@@ -60,12 +60,7 @@ iOS（swift）对于http库，[Alamofire的响应返回默认处于主的UI线�
 
 ## 断点续传就是利用Http的Range实现的
 
-
+![](/assets/img/http_range_download.png)
 
 详见：[［已解决］swift 下载时支持断点续传](http://www.crifan.com/ios_swift_download_support_breakpoint_resume)
-
-
-
-
-
 
