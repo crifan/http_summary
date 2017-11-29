@@ -12,7 +12,8 @@
     }
   },
   "plugins": [
-    "-search"
+    "-search",
+    "multipart"
   ],
   "pluginsConfig": {
     "theme-default": {
