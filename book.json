@@ -18,7 +18,8 @@
     "disqus",
     "-highlight",
     "prism",
-    "prism-themes"
+    "prism-themes",
+    "advanced-emoji"
   ],
   "pluginsConfig": {
     "theme-default": {
