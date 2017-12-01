@@ -12,11 +12,25 @@
     }
   },
   "plugins": [
-    "-search"
+    "-lunr",
+    "-search",
+    "search-plus",
+    "disqus",
+    "-highlight",
+    "prism",
+    "prism-themes"
   ],
   "pluginsConfig": {
     "theme-default": {
         "showLevel": true
+    },
+    "disqus": {
+      "shortName": "crifan"
+    },
+    "prism": {
+      "css": [
+        "prism-themes/themes/prism-duotone-sea.css"
+      ]
     }
   }
 }
