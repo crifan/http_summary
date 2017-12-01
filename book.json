@@ -4,7 +4,7 @@
   "author": "Crifan Li <admin@crifan.com>",
   "language": "zh-hans",
   "gitbook": "3.2.3",
-  "root": ".",
+  "root": "./src",
   "links": {
     "sidebar": {
       "主页": "http://www.crifan.com",
