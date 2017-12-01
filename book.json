@@ -29,7 +29,7 @@
     },
     "prism": {
       "css": [
-        "prism-themes/themes/prism-duotone-sea.css"
+        "prism-themes/themes/prism-hopscotch.css"
       ]
     }
   }
