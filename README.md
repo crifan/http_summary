@@ -6,7 +6,7 @@
 
 ## 在线浏览
 * [HTTP知识总结 book.crifan.com](http://book.crifan.com/books/http_summary/website)
-* [HTTP知识总结 crifan.github.io](https://crifan.github.io/http_summary)
+* [HTTP知识总结 crifan.github.io](https://crifan.github.io/http_summary/website)
 
 ## 离线下载阅读
 * [HTTP知识总结 PDF](http://book.crifan.com/books/http_summary/pdf/http_summary.pdf)
