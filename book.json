@@ -119,6 +119,7 @@
     },
     "download-pdf-link": {
       "base": "https://www.crifan.com/",
+      "multilingual": false,
       "label": "下载PDF"
     }
   }
