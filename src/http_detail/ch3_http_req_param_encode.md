@@ -13,16 +13,15 @@ GET：参数想要放在url中以`?key1=value1&key2=value2`的形式
 * 自己把参数组合成对应的格式，放到url中
 * 把参数（字典，对象等）调用url encode函数去编码，生成对应的格式（再放到url中）
 
-其他一些注意和解释：
-
-* GET 请求有长度限制
-  * 所以query string一般被限制在1024个字节
-    * 超过限制则后台无法解析参数
-* GET 请求可被缓存
-* GET 请求保留在浏览器历史记录中
-* GET 请求可被收藏为书签
-* GET 请求不应在处理敏感数据时使用
-* GET 请求只应当用于取回数据
+> **[info] GET的一般特点**
+> * GET 请求有长度限制
+>   * 所以query string一般被限制在1024个字节
+>     * 超过限制则后台无法解析参数
+> * GET 请求可被缓存
+> * GET 请求保留在浏览器历史记录中
+> * GET 请求可被收藏为书签
+> * GET 请求不应在处理敏感数据时使用
+> * GET 请求只应当用于取回数据
 
 ## POST的请求的参数：`post body`
 
@@ -34,11 +33,11 @@ GET：参数想要放在url中以`?key1=value1&key2=value2`的形式
 * 调用库提供的方法去encode你的参数对象为json
 
 其他一些解释：
-
-* POST 请求不会被缓存
-* POST 请求不会保留在浏览器历史记录中
-* POST 不能被收藏为书签
-* POST 请求对数据长度没有要求
+> **[info] POST的一般特点**
+> * POST 请求不会被缓存
+> * POST 请求不会保留在浏览器历史记录中
+> * POST 不能被收藏为书签
+> * POST 请求对数据长度没有要求
 
 ## GET和POST的请求的参数的编码
 
@@ -172,10 +171,9 @@ Percent Encode指的是，一些字符，在被（url）encode后，往往都是
 
 但是后来有些变种的处理，其中就包括把空格space编码为+（而不是%20）
 
-总之：
-
-* 空格被url encode=percent encode，应该是：%20
-* 而之前历史上有些变种的处理，会编码为：+
+> **[success] 空格被编码的逻辑的历史**
+> * 空格被url encode=percent encode，应该是：**%20**
+> * 而之前历史上有些变种的处理，会编码为：**+**
 
 而Python中对于url encode相关的函数有3种，对应的效果分别如下：
 
@@ -194,10 +192,10 @@ quotedPlusValue = urllib.quote_plus(paraValue) # quotedPlusValue=Crifan+Li
 print "quotedValue=%s,quotedPlusValue=%s"%(quotedValue, quotedPlusValue)
 ```
 
-总结：
-
-* urllib.urlencode编码（字典中的）value，urllib.quote\_plus编码字符串：空格编码为 +
-* urllib.quote编码字符串：空格编码为%20
+> **[success] 空格被编码**
+> * `urllib.urlencode`编码（字典中的）value
+>   * `urllib.quote_plus`编码字符串：空格编码为**+**
+> * `urllib.quote`编码字符串：空格编码为**%20**
 
 ### 在url地址里包含中文时的编码显示和内部逻辑
 
@@ -216,17 +214,16 @@ print "quotedValue=%s,quotedPlusValue=%s"%(quotedValue, quotedPlusValue)
 ![](../assets/img/665389BA-F1E4-4A17-B2FF-BEF7E773DD8D.png)  
 ![](../assets/img/D980D429-8ED2-4EAF-92A0-EC1AAD7E542B.png)
 
-注：
-
-* 一般网页地址中的字符编码都用的是UTF-8
-* 上面编码也都是采用的UTF-8编码得到的结果
+> **[success] 提示**
+> * 一般网页地址中的字符编码都用的是UTF-8
+> * 上面编码也都是采用的UTF-8编码得到的结果
 
 而如果想要换成别的编码，比如另一种常见的中文编码GB2312，则编码出来的是另外的结果：  
-![](../assets/img/61CD3BDE-03EF-48A8-811E-DE5572656473.png)  
-即：
+![](../assets/img/61CD3BDE-03EF-48A8-811E-DE5572656473.png)
 
-* 李茂 -》 `UTF-8`编码后 -》`%e6%9d%8e%e8%8c%82`
-* 李茂 -》 `GB2312`编码后 -》 `%c0%ee%c3%af`
+> **[success] 同样字符串的不同编码的效果**
+> * 李茂 -》 `UTF-8`编码后 -》`%e6%9d%8e%e8%8c%82`
+> * 李茂 -》 `GB2312`编码后 -》 `%c0%ee%c3%af`
 
 ### 为何浏览器中的地址栏中的url地址可以看到有中文，而不是url encode之后的%xx？
 
