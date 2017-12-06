@@ -11,6 +11,7 @@
     }
   },
   "plugins": [
+    "theme-comscore",
     "-lunr",
     "-search",
     "search-plus",
@@ -28,7 +29,8 @@
     "donate",
     "sitemap-general",
     "copy-code-button",
-    "alerts"
+    "alerts",
+    "download-pdf-link"
   ],
   "pluginsConfig": {
     "theme-default": {
@@ -97,7 +99,7 @@
       ]
     },
     "tbfed-pagefooter": {
-      "copyright": "crifan.com，使用<a href='https://creativecommons.org/licenses/by-sa/4.0/'>知识共享署名-相同方式共享4.0协议</a>发布",
+      "copyright": "crifan.com，使用<a href='https://creativecommons.org/licenses/by-sa/4.0/deed.zh'>知识署名-相同方式共享4.0协议</a>发布",
       "modify_label": "该文件修订时间：",
       "modify_format": "YYYY-MM-DD HH:mm:ss"
     },
@@ -114,6 +116,10 @@
     },
     "sitemap-general": {
       "prefix": "https://book.crifan.com/gitbook/http_summary/"
+    },
+    "download-pdf-link": {
+      "base": "https://www.crifan.com/",
+      "label": "下载PDF"
     }
   }
 }
