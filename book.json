@@ -30,7 +30,7 @@
     "sitemap-general",
     "copy-code-button",
     "alerts",
-    "download-pdf-link"
+    "downloadpdf"
   ],
   "pluginsConfig": {
     "theme-default": {
@@ -117,7 +117,7 @@
     "sitemap-general": {
       "prefix": "https://book.crifan.com/gitbook/http_summary/"
     },
-    "download-pdf-link": {
+    "downloadpdf": {
       "base": "http://book.crifan.com/books/htttp_summary/pdf/htttp_summary.pdf",
       "multilingual": false,
       "label": "下载PDF"
