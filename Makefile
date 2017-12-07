@@ -1,3 +1,14 @@
+################################################################################
+# Global defines
+################################################################################
+
+# COLORS
+GREEN  := $(shell tput -Txterm setaf 2)
+YELLOW := $(shell tput -Txterm setaf 3)
+WHITE  := $(shell tput -Txterm setaf 7)
+RESET  := $(shell tput -Txterm sgr0)
+
+# new line and tab
 define NEWLINE
 
 
@@ -6,14 +17,18 @@ endef
 define TAB
 	
 endef
+
+################################################################################
+# Output current makefile info
+################################################################################
 Author=crifan.com
 Version=20171207
 Function=Auto use gitbook to generated files: website/pdf/epub/mobi
 RunHelp = Run 'make help' to see usage
 $(info --------------------------------------------------------------------------------)
-$(info Author: $(Author))
-$(info Version: $(Version))
-$(info Function: $(Function)$(NEWLINE)$(TAB)$(TAB)$(RunHelp))
+$(info ${YELLOW}Author${RESET}  : ${GREEN}$(Author)${RESET})
+$(info ${YELLOW}Version${RESET} : ${GREEN}$(Version)${RESET})
+$(info ${YELLOW}Function${RESET}: ${GREEN}$(Function)$(NEWLINE)$(TAB)$(TAB)$(RunHelp)${RESET})
 $(info --------------------------------------------------------------------------------)
 
 # get current folder name
@@ -140,12 +155,13 @@ all: website pdf epub mobi
 ################################################################################
 # Help
 ################################################################################
+
 TARGET_MAX_CHAR_NUM=20
 ## Show help
 help:
 	@echo ''
 	@echo 'Usage:'
-	@echo '  make <target>'
+	@echo '  ${YELLOW}make${RESET} ${GREEN}<target>${RESET}'
 	@echo ''
 	@echo 'Targets:'
 	@awk '/^[a-zA-Z\-\_0-9]+:/ { \
@@ -153,7 +169,7 @@ help:
 		if (helpMessage) { \
 			helpCommand = substr($$1, 0, index($$1, ":")-1); \
 			helpMessage = substr(lastLine, RSTART + 3, RLENGTH); \
-			printf "  %-$(TARGET_MAX_CHAR_NUM)s %s\n", helpCommand, helpMessage; \
+			printf "  ${YELLOW}%-$(TARGET_MAX_CHAR_NUM)s${RESET} ${GREEN}%s${RESET}\n", helpCommand, helpMessage; \
 		} \
 	} \
 	{ lastLine = $$0 }' $(MAKEFILE_LIST)
