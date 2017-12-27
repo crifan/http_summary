@@ -25,9 +25,6 @@ build/Release
 node_modules
 
 output/
-
-_book/
-book.pdf
-book.epub
-book.mobi
+debug/
 *.zip
+sshpass_password.txt
