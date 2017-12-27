@@ -7,7 +7,7 @@
 
 ![](../assets/img/38CFDEB6-8637-4C7C-AC2E-14C7F3AD9B5A.png)
 
-更多内容详见另外的教程：[HTTP知识总结](http://book.crifan.com/books/http_summary/website/)
+更多内容详见另外的教程：[API开发利器：Postman](http://book.crifan.com/books/api_tool_postman/website/)
 
 ### Chrome的开发者工具Developer Tools
 调试页面内容是否正常，包括布局，参数等等
