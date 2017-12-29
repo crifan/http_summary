@@ -22,7 +22,7 @@ endef
 # Output current makefile info
 ################################################################################
 Author=crifan.com
-Version=20171228
+Version=20171229
 Function=Auto use gitbook to generated files: website/pdf/epub/mobi; upload to remote server; commit to github io repo
 RunHelp = Run 'make help' to see usage
 $(info --------------------------------------------------------------------------------)
@@ -194,16 +194,10 @@ all: website pdf epub mobi
 # clean_zip:
 # 	-rm -rf $(ZIP_NAME)
 
-
-################################################################################
-# rsync common settings
-################################################################################
-PASSWORD_FILE=sshpass_password.txt
-
-
 ################################################################################
 # Upload to server
 ################################################################################
+PASSWORD_FILE=../sshpass_password.txt
 REMOTE_USER=root
 REMOTE_SERVER=45.79.205.194
 REMOTE_BOOKS_PATH=/home/wwwroot/book.crifan.com/books
