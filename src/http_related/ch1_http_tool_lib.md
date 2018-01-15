@@ -15,7 +15,17 @@
 详见：[【总结】浏览器中的开发人员工具（IE9的F12和Chrome的Ctrl+Shift+I）-网页分析的利器](https://www.crifan.com/browser_developer_tool_chrome_vs_ie9/)
 
 ### curl
-模拟去请求服务器数据
+模拟去请求服务器数据的命令行工具
+
+### HTTPie
+后来从[jobbole/awesome-python-cn: Python资源大全中文版](https://github.com/jobbole/awesome-python-cn)中知道了还有个`HTTPie`
+
+* Github: [jakubroztocil/httpie: Modern command line HTTP client](https://github.com/jakubroztocil/httpie)
+* 官网：[HTTPie – command line HTTP client](https://httpie.org)
+* 简介：
+    * > HTTPie is a command line HTTP client with an intuitive UI, JSON support, syntax highlighting, wget-like downloads, plugins, and more
+
+看了下，比curl更好用，更方便。值得推荐。
 
 ### Httpbin
 详见：【整理】Httpbin免费提供HTTP请求和响应的测试网站
