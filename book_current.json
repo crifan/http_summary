@@ -1,0 +1,19 @@
+{
+  "title": "HTTP知识总结",
+  "description": "总结HTTP方面的技术供参考和学习",
+  "pluginsConfig": {
+    "github-buttons": {
+      "buttons": [
+        {
+          "repo": "http_summary"
+        }
+      ]
+    },
+    "sitemap-general": {
+      "prefix": "https://book.crifan.com/gitbook/http_summary/website/"
+    },
+    "toolbar-button": {
+      "url": "http://book.crifan.com/books/http_summary/pdf/http_summary.pdf"
+    }
+  }
+}

@@ -14,7 +14,8 @@
       - 更新xxx
         - 准确的说，其实应该用PUT或UPDATE
     - 会更改服务器内部的数据
-  - PUT/UPDATE
+  - PUT
+  - PATCH
   - DELETE
   - HEAD：获取资源的元数据
   - OPTIONS：获取信息，关于资源的哪些属性是客户端可以改变的
