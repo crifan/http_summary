@@ -21,6 +21,7 @@
   * [HTTP的后台API设计](http_related/ch2_http_api_design.md)
   * [HTTP相关心得](http_related/ch3_http_note_summary.md)
   * [HTTP的文件上传](http_related/ch4_http_file_upload.md)
+  * [混合内容](http_related/ch5_mixed_content.md)
 <!-- ## 附录 -->
 * [附录](appendix/README.md)
   * [优质教程](appendix/good_tutorial.md)

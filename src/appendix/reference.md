@@ -26,5 +26,8 @@
 * [HTTP content-type \| 菜鸟教程](http://www.runoob.com/http/http-content-type.html)
 * [403 Forbidden vs 401 Unauthorized HTTP responses - Stack Overflow](http://stackoverflow.com/questions/3297048/403-forbidden-vs-401-unauthorized-http-responses)
 * [HTTP/1.1: Status Code Definitions](http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)
-
-
+* [Fetch Standard](https://fetch.spec.whatwg.org/#biblio-mix)
+* [Mixed Content](https://w3c.github.io/webappsec-mixed-content/)
+* [什么是混合内容？|Web | Google Developers](https://developers.google.com/web/fundamentals/security/prevent-mixed-content/what-is-mixed-content?hl=zh-cn)
+* [关于启用 HTTPS 的一些经验分享（一） | JerryQu 的小站](https://imququ.com/post/sth-about-switch-to-https.html)
+* [混合内容 - 安全 | MDN](https://developer.mozilla.org/zh-CN/docs/Security/MixedContent)
