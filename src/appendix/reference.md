@@ -31,3 +31,5 @@
 * [什么是混合内容？|Web | Google Developers](https://developers.google.com/web/fundamentals/security/prevent-mixed-content/what-is-mixed-content?hl=zh-cn)
 * [关于启用 HTTPS 的一些经验分享（一） | JerryQu 的小站](https://imququ.com/post/sth-about-switch-to-https.html)
 * [混合内容 - 安全 | MDN](https://developer.mozilla.org/zh-CN/docs/Security/MixedContent)
+* [CORS开发总结](https://book.crifan.com/books/cors_dev_ummary/website/
+)
