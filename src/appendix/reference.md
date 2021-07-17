@@ -1,5 +1,15 @@
 # 参考资料
 
+* 【已解决】PySpider中使用多贝云IP代理池实现每次请求IP都不同
+* 【整理Book】Web前端三剑客：HTML+CSS+JS
+* 
+* [【未解决】给Axios的http请求添加公共处理部分](http://www.crifan.com/js_axios_http_request_add_common_process_part)
+* [【整理】Httpbin免费提供HTTP请求和响应的测试网站](http://www.crifan.com/http_tool_free_httpbin_test_request_and_response_website)
+* [【已解决】ReactJS中好用的获取网络数据的http库](http://www.crifan.com/reactjs_good_network_http_lib)
+* [CORS开发总结](https://book.crifan.com/books/cors_dev_ummary/website/)
+* [【已解决】JS中如何实现将字典变量去url的encode](http://www.crifan.com/js_how_dict_json_url_encode_to_query_parameter)
+* [【已解决】iOS中Alamofire参数解析JSONEncoding出错 – 在路上](https://www.crifan.com/ios_alamofire_parameter_parse_jsonencoding_error/)
+* 
 * [URL encoding the space character: + or %20? - Stack Overflow](https://stackoverflow.com/questions/1634271/url-encoding-the-space-character-or-20)
 * [Percent-encoding - Wikipedia](https://en.wikipedia.org/wiki/URL_encoding)
 * [GitHub - Alamofire/Alamofire: Elegant HTTP Networking in Swift](https://github.com/Alamofire/Alamofire)
@@ -31,5 +41,8 @@
 * [什么是混合内容？|Web | Google Developers](https://developers.google.com/web/fundamentals/security/prevent-mixed-content/what-is-mixed-content?hl=zh-cn)
 * [关于启用 HTTPS 的一些经验分享（一） | JerryQu 的小站](https://imququ.com/post/sth-about-switch-to-https.html)
 * [混合内容 - 安全 | MDN](https://developer.mozilla.org/zh-CN/docs/Security/MixedContent)
-* [CORS开发总结](https://book.crifan.com/books/cors_dev_ummary/website/
-)
+* [XTM Connect SDK – REST API](https://www.xtm-cloud.com/rest-api/#tag/HTTP-Codes)
+* [Vue乱搞系列之axios发起表单请求 - 简书](https://www.jianshu.com/p/b22d03dfe006)
+* [Vue.js 学习系列三——axios 学习实践 - 前端 - 掘金](https://juejin.im/entry/587599388d6d810058a7a41a)
+* [axios/axios: Promise based HTTP client for the browser and node.js](https://github.com/axios/axios)
+* 

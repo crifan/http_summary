@@ -17,7 +17,9 @@
   * [HTTP的响应数据格式JSON](http_detail/ch5_http_resp_data_format_json.md)
 <!-- ## HTTP相关 -->
 * [HTTP相关](http_related/README.md)
-  * [HTTP的工具和库](http_related/ch1_http_tool_lib.md)
+  * [HTTP的工具和库](http_related/tool_lib/README.md)
+    * [HTTP工具](http_related/tool_lib/tool.md)
+    * [HTTP库](http_related/tool_lib/lib.md)
   * [HTTP的后台API设计](http_related/ch2_http_api_design.md)
   * [HTTP相关心得](http_related/ch3_http_note_summary.md)
   * [HTTP的文件上传](http_related/ch4_http_file_upload.md)

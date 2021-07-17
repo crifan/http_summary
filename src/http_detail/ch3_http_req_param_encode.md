@@ -4,6 +4,21 @@
 
 ## GET的请求的参数：`query string`
 
+关于Http的GET的请求参数，也有别的叫法：
+
+* `请求参数`=`request parameter`
+* = `查询`=`query`
+* = `查询字符串`=`query string`
+* = `请求参数`=`request parameters`
+* = `参数序列化`=`param serialization`=`parameter serialization`
+
+转换后放到Url中的，是如下形式：
+
+`?key1=value1`
+
+`?key1=value1&key2=value2`
+
+
 典型的是：
 
 GET：参数想要放在url中以`?key1=value1&key2=value2`的形式
@@ -22,6 +37,48 @@ GET：参数想要放在url中以`?key1=value1&key2=value2`的形式
 > * GET 请求可被收藏为书签
 > * GET 请求不应在处理敏感数据时使用
 > * GET 请求只应当用于取回数据
+
+### 处理查询参数的库
+
+#### JS的qs
+
+* js中http网络库：axios
+  * 其中有，处理查询参数的：`qs`
+      * https://www.npmjs.com/package/qs
+  * 当需要处理get的query string时，就可以利用其中的Qs子库去处理
+    ```js
+    Qs.stringify(data)
+    ```
+    * 实现：把（一般是字典类型==JSON类型的）变量，转换，字符串换，序列化，为`&key1=value1`之类的形式
+
+关于别名：`参数序列化`
+
+其中官网demo中：
+
+```js
+  // `paramsSerializer` is an optional function in charge of serializing `params`
+  // (e.g. https://www.npmjs.com/package/qs, http://api.jquery.com/jquery.param/)
+  paramsSerializer: function(params) {
+    return Qs.stringify(params, {arrayFormat: 'brackets'})
+  },
+```
+
+也说明了：
+
+此处的`stringify`=`字符串化`，也叫做：`paramsSerializer`=``参数序列化`
+
+
+举例：
+
+某js项目中用到了`stringify`：
+
+```js
+import { stringify } from 'qs';
+
+export async function queryRule(params) {
+    return request(`/api/rule?${stringify(params)}`);
+}
+```
 
 ## POST的请求的参数：`post body`
 
@@ -171,7 +228,7 @@ Percent Encode指的是，一些字符，在被（url）encode后，往往都是
 
 但是后来有些变种的处理，其中就包括把空格space编码为+（而不是%20）
 
-> **[success] 空格被编码的逻辑的历史**
+> #### success:: 空格被编码的逻辑的历史
 > * 空格被url encode=percent encode，应该是：**%20**
 > * 而之前历史上有些变种的处理，会编码为：**+**
 
@@ -192,7 +249,7 @@ quotedPlusValue = urllib.quote_plus(paraValue) # quotedPlusValue=Crifan+Li
 print "quotedValue=%s,quotedPlusValue=%s"%(quotedValue, quotedPlusValue)
 ```
 
-> **[success] 空格被编码**
+> #### success:: 空格被编码
 > * `urllib.urlencode`编码（字典中的）value
 >   * `urllib.quote_plus`编码字符串：空格编码为**+**
 > * `urllib.quote`编码字符串：空格编码为**%20**
@@ -214,14 +271,14 @@ print "quotedValue=%s,quotedPlusValue=%s"%(quotedValue, quotedPlusValue)
 ![](../assets/img/665389BA-F1E4-4A17-B2FF-BEF7E773DD8D.png)  
 ![](../assets/img/D980D429-8ED2-4EAF-92A0-EC1AAD7E542B.png)
 
-> **[success] 提示**
+> #### success:: 提示
 > * 一般网页地址中的字符编码都用的是UTF-8
 > * 上面编码也都是采用的UTF-8编码得到的结果
 
 而如果想要换成别的编码，比如另一种常见的中文编码GB2312，则编码出来的是另外的结果：  
 ![](../assets/img/61CD3BDE-03EF-48A8-811E-DE5572656473.png)
 
-> **[success] 同样字符串的不同编码的效果**
+> #### success:: 同样字符串的不同编码的效果
 > * 李茂 -》 `UTF-8`编码后 -》`%e6%9d%8e%e8%8c%82`
 > * 李茂 -》 `GB2312`编码后 -》 `%c0%ee%c3%af`
 

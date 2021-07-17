@@ -19,7 +19,7 @@
   - DELETE
   - HEAD：获取资源的元数据
   - OPTIONS：获取信息，关于资源的哪些属性是客户端可以改变的
-- Parameters
+- Query Parameters
   - for `GET`
     - `query string`=`qs`=`query parameters`=`params`=`query component`
       - /xxx/xxx?key1=value1&key2=value2
@@ -27,15 +27,15 @@
     - body
       - JSON
       - url encoded
-        - key1=value1&key2=value2
+        - `key1=value1&key2=value2`
 - Headers
   - Content-Type
-    - application/json
-    - application/json;charset=UTF-8
+    - `application/json`
+    - `application/json;charset=UTF-8`
   - Accept
-    - application/json
+    - `application/json`
   - Authorization
-    - Bearer 725a7c44b76c45ab95152bcee014ae6e_1
+    - `Bearer 725a7c44b76c45ab95152bcee014ae6e_1`
 - Other
   - Cookie
   - LocalStorage
