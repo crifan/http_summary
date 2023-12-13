@@ -53,8 +53,8 @@ func uploadImageData(imageData:NSData){
                 /*
 encodingResult=Success($ curl -i \
     -X POST \
-    -H "User-Agent: Sales App/com.qoro.QorosSalesApp (2016.6.24; OS ban ben 9.3(ban hao 13E230))" \
-    -H "authenticate: token fmc2q2m25vre0htehsijmlur53" \
+    -H "User-Agent: Xxx App/com.xxx.YyyApp (2016.6.24; OS ban ben 9.3(ban hao 13E230))" \
+    -H "authenticate: token zzzzzz" \
     -H "Content-Type: multipart/form-data; boundary=alamofire.boundary.5fd5efc56016a4df" \
     -H "Accept-Encoding: gzip;q=1.0, compress;q=0.5" \
     -H "Accept-Language: en-US;q=1.0, zh-Hans-US;q=0.9" \
@@ -62,12 +62,12 @@ encodingResult=Success($ curl -i \
 
 encodingResult=Success($ curl -i \
     -X POST \
-    -H "User-Agent: Sales App/com.qoro.QorosSalesApp (2016.6.24; OS ban ben 9.3(ban hao 13E230))" \
-    -H "authenticate: token 4up3enr7nfd6c3rfei1ukcg1vv" \
+    -H "User-Agent: Xxx App/com.xxx.YyyApp (2016.6.24; OS ban ben 9.3(ban hao 13E230))" \
+    -H "authenticate: token zzzzzz" \
     -H "Content-Type: multipart/form-data; boundary=alamofire.boundary.01fc8db6b551cd51" \
     -H "Accept-Encoding: gzip;q=1.0, compress;q=0.5" \
     -H "Accept-Language: en-US;q=1.0, zh-Hans-US;q=0.9" \
-    "http://qapp.chinacloudapp.cn/app/user/10000010/upload", false, nil)
+    "http://xxx.yyy.cn/app/user/10000010/upload", false, nil)
                  */
 
                 switch encodingResult {
@@ -76,7 +76,7 @@ encodingResult=Success($ curl -i \
 //                        gLog.verbose("uploadRequest=\(uploadRequest), streamingFromDisk=\(streamingFromDisk), streamFileURL=\(streamFileURL)")
                         gLog.verbose("uploadRequest=\(uploadRequest)")
                     //upload=POST http://192.168.1.102:8080/app/user/10000010/upload
-                    //uploadRequest=POST http://qapp.chinacloudapp.cn/app/user/10000010/upload
+                    //uploadRequest=POST http://xxx.yyy.cn/app/user/10000010/upload
 
                     uploadRequest.responseJSON(completionHandler:
                         { response in

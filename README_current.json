@@ -1,6 +1,6 @@
 {
-  "latestVersion": "v3.3",
-  "lastUpdate": "20210717",
+  "latestVersion": "v3.4",
+  "lastUpdate": "20231213",
   "gitRepoName": "http_summary",
   "bookName": "HTTP知识总结",
   "bookDescription": "总结HTTP技术相关内容。先进行了HTTP的简介，介绍了学习HTTP的目的，以及典型的HTTP的内部流程，以及总结了基本的逻辑。再进行HTTP的详细介绍，包括字段和结构，Header头，请求参数和编码，响应的状态码，响应数据的JSON格式等。再整理HTTP相关的一些内容，比如工具和不同语言的HTTP的网络库，以及如何进行后台HTTP相关的api接口设计，总结了一些相关心得，文件上传、混合内容等。最后附上一些HTTP相关的教程资料。"
